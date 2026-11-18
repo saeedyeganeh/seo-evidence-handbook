@@ -1,0 +1,43 @@
+site_name: SEO Evidence Handbook
+site_description: How Google Search works, explained claim by claim with the evidence behind each one.
+site_author: Saeed Yeganeh
+site_url: https://saeedyeganeh.github.io/seo-evidence-handbook/
+repo_url: https://github.com/saeedyeganeh/seo-evidence-handbook
+docs_dir: docs
+copyright: Text licensed CC BY 4.0 · Saeed Yeganeh · Not affiliated with Google
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.top
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle: {icon: material/weather-night, name: Dark mode}
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle: {icon: material/weather-sunny, name: Light mode}
+
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md
+  - 01 Reading SEO evidence: chapters/01-reading-seo-evidence.md
+  - Claim ledger: sources/claims.md
+  - Contributing: CONTRIBUTING.md
+
+extra:
+  social:
+    - icon: material/web
+      link: https://saeedyeganeh.com/en/

@@ -1,0 +1,102 @@
+# Claim ledger: every factual claim in the handbook, with its evidence.
+# Fields: id, chapter, claim, label, source, locator, checked (YYYY-MM-DD), note (optional)
+
+- id: c01-001
+  chapter: 01
+  claim: Google's ranking systems are designed to work at the page level, and site-wide signals and classifiers are also used.
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/ranking-systems-guide
+  locator: Introductory paragraphs
+  checked: 2026-11-18
+
+- id: c01-002
+  chapter: 01
+  claim: Search quality raters' ratings do not directly influence ranking; they help evaluate ranking systems.
+  label: Official
+  source: https://developers.google.com/search/blog/2023/11/search-quality-rater-guidelines-update
+  locator: Search Central Blog, November 2023 post
+  checked: 2026-11-18
+
+- id: c01-003
+  chapter: 01
+  claim: A DOJ demonstrative quotes Eric Lehman's trial testimony that NavBoost trains on about 13 months of user data.
+  label: Testimony
+  source: https://www.justice.gov/media/1398886/dl
+  locator: Exhibit PXRD016, slide B-2; citing trial testimony 20 Sep 2023 PM, 1805:6-13
+  checked: 2026-11-18
+  note: Demonstrative exhibit summarising sworn testimony.
+
+- id: c01-004
+  chapter: 01
+  claim: Notes of a 31 January 2025 call with Pandu Nayak state that NavBoost uses the most recent 13 months of data.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398866/dl
+  locator: Exhibit PXR0357, section I
+  checked: 2026-11-18
+  note: Interview notes by a party's legal team, not sworn testimony.
+
+- id: c01-005
+  chapter: 01
+  claim: The Content Warehouse API documentation was published to public GitHub in March 2024 by automation and a follow-up commit on 7 May 2024 attempted to remove it.
+  label: Secondhand
+  source: https://www.theregister.com/2024/05/29/internal_google_search_documents/
+  also: https://ipullrank.com/google-algo-leak
+  locator: Article body
+  checked: 2026-11-18
+
+- id: c01-006
+  chapter: 01
+  claim: Google confirmed the leaked documents were authentic and cautioned against inaccurate assumptions based on out-of-context, outdated or incomplete information.
+  label: Secondhand
+  source: https://www.searchenginejournal.com/google-validates-leak-igniting-questions-around-search-transparency/518006/
+  locator: Google spokesperson statement to The Verge, quoted in article
+  checked: 2026-11-18
+
+- id: c01-007
+  chapter: 01
+  claim: CompressedQualitySignals.siteAuthority is described as converted from quality_nsr.SiteAuthority and applied in Qstar; default nil.
+  label: API Docs
+  source: https://hexdocs.pm/google_api_content_warehouse/0.4.0/GoogleApi.ContentWarehouse.V1.Model.CompressedQualitySignals.html
+  locator: Field siteAuthority, package v0.4.0
+  checked: 2026-11-18
+
+- id: c01-008
+  chapter: 01
+  claim: CompressedQualitySignals.exactMatchDomainDemotion is described as converted from QualityBoost.emd.boost.
+  label: API Docs
+  source: https://hexdocs.pm/google_api_content_warehouse/0.4.0/GoogleApi.ContentWarehouse.V1.Model.CompressedQualitySignals.html
+  locator: Field exactMatchDomainDemotion, package v0.4.0
+  checked: 2026-11-18
+
+- id: c01-009
+  chapter: 01
+  claim: Google's exact match domain system works to avoid giving too much credit to domains designed to exactly match queries.
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/ranking-systems-guide
+  locator: Section "Exact match domain system"
+  checked: 2026-11-18
+
+- id: c01-010
+  chapter: 01
+  claim: Matt Cutts (2013) said holding a patent does not mean Google currently uses it in its algorithm.
+  label: Secondhand
+  source: https://searchengineland.com/googles-matt-cutts-holding-a-patent-doesnt-mean-we-use-that-patent-in-search-quality-157970
+  locator: Article summarising Cutts video
+  checked: 2026-11-18
+
+- id: c01-011
+  chapter: 01
+  claim: John Mueller (2021) said a Google patent does not mean Google uses it in Search.
+  label: Secondhand
+  source: https://www.searchenginejournal.com/google-patents-are-not-always-used-in-search/395383/
+  locator: Quote from Search Central SEO hangout, 5 Feb 2021
+  checked: 2026-11-18
+
+- id: c01-012
+  chapter: 01
+  claim: In a 2018 Reddit AMA, John Mueller said Google does not use domain authority, tries to keep metrics granular, and sometimes looks broader.
+  label: Official
+  source: https://www.searchenginejournal.com/ranking-factors/domain-authority-ranking-factor/
+  locator: Section quoting the 2018 Reddit AMA
+  checked: 2026-11-18
+  note: Statement by a Google search representative, cited via a secondary report.

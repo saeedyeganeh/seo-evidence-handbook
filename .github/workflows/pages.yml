@@ -1,0 +1,49 @@
+name: Publish site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "mkdocs<2" mkdocs-material pyyaml
+      - name: Assemble docs folder
+        run: |
+          mkdir -p docs/chapters docs/sources
+          cp README.md docs/index.md
+          cp CONTRIBUTING.md docs/CONTRIBUTING.md
+          cp chapters/*.md docs/chapters/
+          python scripts/claims_to_md.py sources/claims.yml > docs/sources/claims.md
+          # the repo links to claims.yml; on the site the rendered ledger is claims.md
+          sed -i 's#](sources/claims.yml)#](sources/claims.md)#g' docs/index.md
+          sed -i 's#](../sources/claims.yml)#](../sources/claims.md)#g' docs/chapters/*.md
+      - run: mkdocs build --strict
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

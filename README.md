@@ -31,7 +31,7 @@ Read [Chapter 1](chapters/01-reading-seo-evidence.md) first. It explains what ea
 | # | Chapter | Status |
 |---|---|---|
 | 01 | [Reading SEO evidence: sources and how much to trust them](chapters/01-reading-seo-evidence.md) | Draft v0.1 |
-| 02 | How Google Search works end to end | Planned |
+| 02 | [How Google Search works end to end](chapters/02-how-search-works.md) | Draft v0.1 |
 | 03 | Relevance and search intent | Planned |
 | 04 | Content quality, originality and effort | Planned |
 | 05 | Links and how they are weighted | Planned |

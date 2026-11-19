@@ -100,3 +100,347 @@
   locator: Section quoting the 2018 Reddit AMA
   checked: 2026-11-18
   note: Statement by a Google search representative, cited via a secondary report.
+
+- id: c02-001
+  chapter: 02
+  claim: Google Search is fully automated and most pages in its results are found by crawlers rather than submitted manually.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/how-search-works
+  locator: Opening section
+  checked: 2026-11-19
+
+- id: c02-002
+  chapter: 02
+  claim: Google Search works in three stages (crawling, indexing, serving) and not all pages make it through each stage.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/how-search-works
+  locator: Opening section (three stages)
+  checked: 2026-11-19
+
+- id: c02-003
+  chapter: 02
+  claim: Google does not accept payment to crawl a site more often or rank it higher, and does not guarantee it will crawl, index or serve a page even if it follows Google Search Essentials.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/how-search-works
+  locator: Opening section
+  checked: 2026-11-19
+
+- id: c02-004
+  chapter: 02
+  claim: There is no central registry of web pages; Google discovers URLs from pages it already knows, from links on known pages, and from submitted sitemaps.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/how-search-works
+  locator: Crawling section
+  checked: 2026-11-19
+
+- id: c02-005
+  chapter: 02
+  claim: Googlebot does not crawl every page it discovers.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/how-search-works
+  locator: Crawling section
+  checked: 2026-11-19
+
+- id: c02-006
+  chapter: 02
+  claim: Googlebot uses an algorithmic process to decide which sites to crawl, how often and how many pages to fetch, and slows down in response to signals such as HTTP 500 errors.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/how-search-works
+  locator: Crawling section
+  checked: 2026-11-19
+
+- id: c02-007
+  chapter: 02
+  claim: Common reasons crawling fails include server problems, network issues, robots.txt rules, and pages requiring login.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/how-search-works
+  locator: Crawling section
+  checked: 2026-11-19
+
+- id: c02-008
+  chapter: 02
+  claim: Submitting a sitemap does not guarantee all listed items will be crawled and indexed; sitemaps help most for large sites, new sites with few external links, and sites with much video or image content or in Google News.
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview
+  locator: Section on whether you need a sitemap
+  checked: 2026-11-19
+
+- id: c02-009
+  chapter: 02
+  claim: Crawl budget is defined as the set of URLs that Google can and wants to crawl, determined by crawl capacity limit and crawl demand.
+  label: Official
+  source: https://developers.google.com/crawling/docs/crawl-budget
+  locator: Definition of crawl budget (capacity limit and demand)
+  checked: 2026-11-19
+
+- id: c02-010
+  chapter: 02
+  claim: Crawl capacity rises when a site responds quickly and reliably and falls when it slows or returns server errors; Google's own crawling resources are finite.
+  label: Official
+  source: https://developers.google.com/crawling/docs/crawl-budget
+  locator: Section on crawl capacity limit
+  checked: 2026-11-19
+
+- id: c02-011
+  chapter: 02
+  claim: "Crawl demand: Google tries to crawl most known URLs, recrawls more popular URLs more often, and recrawls to pick up changes."
+  label: Official
+  source: https://developers.google.com/crawling/docs/crawl-budget
+  locator: Section on crawl demand
+  checked: 2026-11-19
+
+- id: c02-012
+  chapter: 02
+  claim: Every site starts with the same default, conservative crawl capacity limit, and the limit is shared across all Google crawlers.
+  label: Official
+  source: https://developers.google.com/crawling/docs/crawl-budget
+  locator: Section on crawl capacity limit
+  checked: 2026-11-19
+  note: Page last updated 2026-07-22 when checked.
+
+- id: c02-013
+  chapter: 02
+  claim: Returning a 304 status tells Google to reuse its cached version.
+  label: Official
+  source: https://developers.google.com/crawling/docs/crawl-budget
+  locator: Section on HTTP 304 responses
+  checked: 2026-11-19
+
+- id: c02-014
+  chapter: 02
+  claim: The crawl budget guide targets sites of roughly 1 million+ pages changing weekly or 10,000+ pages changing daily, and these are not exact thresholds.
+  label: Official
+  source: https://developers.google.com/crawling/docs/crawl-budget
+  locator: Opening section (who the guide is for)
+  checked: 2026-11-19
+
+- id: c02-015
+  chapter: 02
+  claim: Googlebot is the name for two crawler types, Smartphone and Desktop, and most crawl requests use the mobile crawler.
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/googlebot
+  locator: Opening section
+  checked: 2026-11-19
+
+- id: c02-016
+  chapter: 02
+  claim: Googlebot crawls the first 2MB of a supported file type and the first 64MB of a PDF, measured uncompressed; after the limit it sends only the downloaded part for indexing consideration.
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/googlebot
+  locator: Section on file size limits
+  checked: 2026-11-19
+  note: Page last updated 2026-02-03 when checked.
+
+- id: c02-017
+  chapter: 02
+  claim: robots.txt is mainly for avoiding overloading a site and is not a mechanism for keeping a page out of Google; a disallowed page can still be indexed if linked from elsewhere.
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/robots/intro
+  locator: Section on what robots.txt is used for
+  checked: 2026-11-19
+
+- id: c02-018
+  chapter: 02
+  claim: Google renders pages and runs JavaScript using a recent version of Chrome; without rendering Google might not see JavaScript-loaded content.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/how-search-works
+  locator: Crawling section
+  checked: 2026-11-19
+
+- id: c02-019
+  chapter: 02
+  claim: "Google processes JavaScript web apps in three phases: crawling, rendering and indexing; Googlebot checks robots.txt first and skips disallowed URLs."
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics
+  locator: Section on how Googlebot processes JavaScript
+  checked: 2026-11-19
+
+- id: c02-020
+  chapter: 02
+  claim: All pages returning HTTP 200 are sent to the rendering queue; a page may wait a few seconds or longer; rendering may be skipped for non-200 responses.
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics
+  locator: Section on how Googlebot processes JavaScript
+  checked: 2026-11-19
+
+- id: c02-021
+  chapter: 02
+  claim: Google uses the rendered HTML to index the page, runs JavaScript with an evergreen Chromium, and may skip rendering if it finds noindex in the original HTML.
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics
+  locator: Sections on how Googlebot processes JavaScript and on meta robots tags
+  checked: 2026-11-19
+
+- id: c02-022
+  chapter: 02
+  claim: During indexing Google analyses text, key tags and attributes such as title elements and alt attributes, images and videos.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/how-search-works
+  locator: Indexing section
+  checked: 2026-11-19
+
+- id: c02-023
+  chapter: 02
+  claim: Google clusters pages with similar content, selects a canonical that may be shown in results, and treats other pages as alternate versions that may be served in different contexts.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/how-search-works
+  locator: Indexing section
+  checked: 2026-11-19
+
+- id: c02-024
+  chapter: 02
+  claim: Google collects signals such as language, the country the content is local to and usability, and may store information in the Google index, a large database hosted on thousands of computers.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/how-search-works
+  locator: Indexing section
+  checked: 2026-11-19
+
+- id: c02-025
+  chapter: 02
+  claim: Indexing is not guaranteed; reasons include low-quality content, robots meta rules disallowing indexing, and site design that makes indexing difficult.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/how-search-works
+  locator: Indexing section
+  checked: 2026-11-19
+
+- id: c02-026
+  chapter: 02
+  claim: Canonical selection uses a handful of factors including HTTP vs HTTPS, redirects, sitemap inclusion and rel=canonical; a declared canonical is a hint, not a rule.
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/canonicalization
+  locator: Section on how Google chooses the canonical
+  checked: 2026-11-19
+
+- id: c02-027
+  chapter: 02
+  claim: The canonical is crawled most regularly while duplicates are crawled less frequently to reduce crawling load.
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/canonicalization
+  locator: Section on why canonicalization matters (crawl frequency of duplicates)
+  checked: 2026-11-19
+
+- id: c02-028
+  chapter: 02
+  claim: For noindex to work, the page must not be blocked by robots.txt.
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/block-indexing
+  locator: Opening section
+  checked: 2026-11-19
+
+- id: c02-029
+  chapter: 02
+  claim: Discovered - currently not indexed means found but not crawled yet, typically because crawling was expected to overload the site and was rescheduled.
+  label: Official
+  source: https://support.google.com/webmasters/answer/7440203?hl=en
+  locator: Status reasons
+  checked: 2026-11-19
+
+- id: c02-030
+  chapter: 02
+  claim: Crawled - currently not indexed is common and does not necessarily indicate an issue; sites should expect only canonical pages to be indexed.
+  label: Official
+  source: https://support.google.com/webmasters/answer/7440203?hl=en
+  locator: Status reasons; FAQ on whether unindexed pages are OK
+  checked: 2026-11-19
+
+- id: c02-031
+  chapter: 02
+  claim: Google chose different canonical than user and Alternate page with proper canonical tag are canonicalization statuses; the latter needs no action.
+  label: Official
+  source: https://support.google.com/webmasters/answer/7440203?hl=en
+  locator: Status reasons
+  checked: 2026-11-19
+
+- id: c02-032
+  chapter: 02
+  claim: CompositeDoc is described as a protocol record used for collecting together all information about a document, with sub-records for per-doc data, quality signals, indexing info and robots info.
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.CompositeDoc.html
+  locator: Module description; fields perDocData, qualitysignals, indexinginfo, robotsinfolist; v0.4.0
+  checked: 2026-11-19
+
+- id: c02-033
+  chapter: 02
+  claim: CompositeDocIndexingInfo is described as mostly used within indexing; its selectionTierRank field is a language-normalized 0-1 score over the serving tier, naming tiers Base, Zeppelins and Landfills.
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.CompositeDocIndexingInfo.html
+  locator: Module description; field selectionTierRank; v0.4.0
+  checked: 2026-11-19
+  note: Meaning of tiers for ranking is not stated.
+
+- id: c02-034
+  chapter: 02
+  claim: Google says it returns results it believes are highest quality and most relevant, and relevancy depends on hundreds of factors which could include location, language and device.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/how-search-works
+  locator: Serving search results section
+  checked: 2026-11-19
+
+- id: c02-035
+  chapter: 02
+  claim: Search features shown vary by query (local results for bicycle repair shops, images for modern bicycle).
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/how-search-works
+  locator: Serving search results section
+  checked: 2026-11-19
+
+- id: c02-036
+  chapter: 02
+  claim: Key signal groups are meaning, relevance, quality, usability and context, and the weight of each factor varies by query.
+  label: Official
+  source: https://google.com/intl/en/search/howsearchworks/how-search-works/ranking-results/
+  locator: Ranking results page
+  checked: 2026-11-19
+
+- id: c02-037
+  chapter: 02
+  claim: Google's automated ranking systems look at many factors and signals about hundreds of billions of web pages; the guide covers core systems and systems for specific needs.
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/ranking-systems-guide
+  locator: Opening section
+  checked: 2026-11-19
+
+- id: c02-038
+  chapter: 02
+  claim: Nayak testified that retrieval pulls documents matching the query from the index (for every word, the pages it occurs on) by walking postings lists, down to tens of thousands of documents.
+  label: Testimony
+  source: https://thecapitolforum.com/wp-content/uploads/2023/10/101823-USA-v-Google-PM.pdf
+  locator: Trial transcript 18 Oct 2023 PM, 6406-6407
+  checked: 2026-11-19
+  note: Sworn testimony, answering the Court.
+
+- id: c02-039
+  chapter: 02
+  claim: Nayak testified that signals narrow tens of thousands of documents to several hundred and that NavBoost is not the only factor; core topicality, PageRank and localization signals also contribute.
+  label: Testimony
+  source: https://thecapitolforum.com/wp-content/uploads/2023/10/101823-USA-v-Google-PM.pdf
+  locator: Trial transcript 18 Oct 2023 PM, 6407:9-6408:2
+  checked: 2026-11-19
+  note: Sworn testimony.
+
+- id: c02-040
+  chapter: 02
+  claim: Nayak testified the smaller set goes to a next phase of ranking that uses machine learning among other things.
+  label: Testimony
+  source: https://thecapitolforum.com/wp-content/uploads/2023/10/101823-USA-v-Google-PM.pdf
+  locator: Trial transcript 18 Oct 2023 PM, 6407-6408
+  checked: 2026-11-19
+  note: Sworn testimony.
+
+- id: c02-041
+  chapter: 02
+  claim: Notes of a 31 Jan 2025 call with Nayak describe signals being combined into a single score that determines rank among blue links, and Twiddlers re-rank already selected results.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398866/dl
+  locator: Exhibit PXR0357, section I
+  checked: 2026-11-19
+  note: Interview notes, not sworn testimony.
+
+- id: c02-042
+  chapter: 02
+  claim: Asked by DOJ counsel whether the index was about 400 billion documents in 2020, Nayak answered he did not know the specific number but maybe; he said the number had come down for a period.
+  label: Testimony
+  source: https://thecapitolforum.com/wp-content/uploads/2023/10/101823-USA-v-Google-PM.pdf
+  locator: Trial transcript 18 Oct 2023 PM, 6397:9-18
+  checked: 2026-11-19
+  note: The 400 billion figure was counsel's question, not confirmed by the witness.

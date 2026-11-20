@@ -444,3 +444,340 @@
   locator: Trial transcript 18 Oct 2023 PM, 6397:9-18
   checked: 2026-11-19
   note: The 400 billion figure was counsel's question, not confirmed by the witness.
+
+- id: c03-001
+  chapter: 03
+  claim: Google builds language models to work out how the few words in a query match the most useful content available.
+  label: Official
+  source: https://www.google.co.uk/intl/en_uk/search/howsearchworks/how-search-works/ranking-results
+  locator: Meaning of your query
+  checked: 2026-11-20
+
+- id: c03-002
+  chapter: 03
+  claim: Google's query work includes correcting spelling mistakes and a synonym system that finds relevant documents lacking the exact query words.
+  label: Official
+  source: https://www.google.co.uk/intl/en_uk/search/howsearchworks/how-search-works/ranking-results
+  locator: Meaning of your query
+  checked: 2026-11-20
+
+- id: c03-003
+  chapter: 03
+  claim: Google's systems recognise queries about current events, where the latest information is shown, and queries with a local intent.
+  label: Official
+  source: https://www.google.co.uk/intl/en_uk/search/howsearchworks/how-search-works/ranking-results
+  locator: 'Meaning of your query: current events; localisation'
+  checked: 2026-11-20
+
+- id: c03-004
+  chapter: 03
+  claim: If query keywords appear in the headings or body text of a page, the information might be more relevant.
+  label: Official
+  source: https://www.google.co.uk/intl/en_uk/search/howsearchworks/how-search-works/ranking-results
+  locator: Relevance of content
+  checked: 2026-11-20
+
+- id: c03-005
+  chapter: 03
+  claim: Google uses aggregated and anonymised interaction data to assess whether search results are relevant to queries.
+  label: Official
+  source: https://www.google.co.uk/intl/en_uk/search/howsearchworks/how-search-works/ranking-results
+  locator: Relevance of content
+  checked: 2026-11-20
+
+- id: c03-006
+  chapter: 03
+  claim: Google uses information such as location, past Search history and Search settings to determine what is most relevant for a user.
+  label: Official
+  source: https://www.google.co.uk/intl/en_uk/search/howsearchworks/how-search-works/ranking-results
+  locator: Context and settings
+  checked: 2026-11-20
+
+- id: c03-007
+  chapter: 03
+  claim: RankBrain, launched in 2015, was the first deep learning system deployed in Search; it relates words to concepts and is used to help rank top results.
+  label: Official
+  source: https://blog.google/products/search/how-ai-powers-great-search-results/
+  locator: RankBrain section (post dated 3 Feb 2022)
+  checked: 2026-11-20
+
+- id: c03-008
+  chapter: 03
+  claim: Google's RankBrain example connects a query about the consumer at the highest level of a food chain to the concept of an apex predator.
+  label: Official
+  source: https://blog.google/products/search/how-ai-powers-great-search-results/
+  locator: RankBrain section
+  checked: 2026-11-20
+
+- id: c03-009
+  chapter: 03
+  claim: Neural matching was introduced to Search in 2018 and looks at an entire query or page rather than just keywords.
+  label: Official
+  source: https://blog.google/products/search/how-ai-powers-great-search-results/
+  locator: Neural matching section
+  checked: 2026-11-20
+
+- id: c03-010
+  chapter: 03
+  claim: BERT, launched in 2019, understands words in sequence and how they relate, so important words in a query are not dropped.
+  label: Official
+  source: https://blog.google/products/search/how-ai-powers-great-search-results/
+  locator: BERT section
+  checked: 2026-11-20
+
+- id: c03-011
+  chapter: 03
+  claim: As of February 2022, MUM was used for specialised applications and was not currently used to help rank search results.
+  label: Official
+  source: https://blog.google/products/search/how-ai-powers-great-search-results/
+  locator: MUM section
+  checked: 2026-11-20
+  note: The post says MUM was introduced 'in May' without stating the year.
+
+- id: c03-012
+  chapter: 03
+  claim: For the query '2019 brazil traveler to usa need a visa', earlier systems returned results about U.S. citizens travelling to Brazil; with BERT, Search understood the direction given by 'to'.
+  label: Official
+  source: https://blog.google/products/search/search-language-understanding-bert/
+  locator: Visa example (post dated 25 Oct 2019)
+  checked: 2026-11-20
+
+- id: c03-013
+  chapter: 03
+  claim: At launch, Google said BERT would help Search better understand one in 10 searches in U.S. English.
+  label: Official
+  source: https://blog.google/products/search/search-language-understanding-bert/
+  locator: Post dated 25 Oct 2019
+  checked: 2026-11-20
+
+- id: c03-014
+  chapter: 03
+  claim: Notes of a 31 Jan 2025 call with Nayak say Google's traditional approach to ranking was in the style of Okapi BM25.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398866/dl
+  locator: Exhibit PXR0357, section II
+  checked: 2026-11-20
+  note: Interview notes, not sworn testimony.
+
+- id: c03-015
+  chapter: 03
+  claim: The Nayak call notes describe a transition to signals generated by machine learning and deep learning, naming RankEmbed, RankBrain and DeepRank.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398866/dl
+  locator: Exhibit PXR0357, section II
+  checked: 2026-11-20
+  note: Interview notes, not sworn testimony.
+
+- id: c03-016
+  chapter: 03
+  claim: The Nayak call notes describe RankEmbed as a dual encoder model that embeds query and document into an embedding space that considers semantic properties.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398866/dl
+  locator: Exhibit PXR0357, section II
+  checked: 2026-11-20
+  note: Interview notes, not sworn testimony.
+
+- id: c03-017
+  chapter: 03
+  claim: The Nayak call notes say BERT-based DeepRank signals could be decomposed into signals resembling traditional ones, and combining both produced better outcomes.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398866/dl
+  locator: Exhibit PXR0357, section II
+  checked: 2026-11-20
+  note: Interview notes, not sworn testimony.
+
+- id: c03-018
+  chapter: 03
+  claim: The Nayak call notes say Google trained RankEmbed on a sample from a single month of search data.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398866/dl
+  locator: Exhibit PXR0357, section II
+  checked: 2026-11-20
+  note: Interview notes, not sworn testimony.
+
+- id: c03-019
+  chapter: 03
+  claim: 'Notes of an 18 Feb 2025 call with HJ Kim describe three fundamental ABC signals: Anchors (links), Body (terms in the document) and Clicks (historically, how long a user stayed on a linked page before returning to the results page).'
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398871/dl
+  locator: Exhibit PXR0356, section I
+  checked: 2026-11-20
+  note: Interview notes, not sworn testimony.
+
+- id: c03-020
+  chapter: 03
+  claim: The HJ Kim call notes say ABC signals are the key components of topicality, Google's determination of how relevant a document is to the query.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398871/dl
+  locator: Exhibit PXR0356, section I
+  checked: 2026-11-20
+  note: Interview notes, not sworn testimony.
+
+- id: c03-021
+  chapter: 03
+  claim: The HJ Kim call notes say T* (Topicality) combines at least the three ABC signals in a relatively hand-crafted way.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398871/dl
+  locator: Exhibit PXR0356, section I
+  checked: 2026-11-20
+  note: Interview notes, not sworn testimony.
+
+- id: c03-022
+  chapter: 03
+  claim: The HJ Kim call notes say almost every signal aside from RankBrain and DeepRank is hand-crafted, so engineers can analyse and adjust it, and give the reason that if anything breaks Google knows what to fix.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398871/dl
+  locator: Exhibit PXR0356, section I, pp. 1-2
+  checked: 2026-11-20
+  note: Interview notes, not sworn testimony.
+
+- id: c03-023
+  chapter: 03
+  claim: The HJ Kim call notes say query-based signals are not stored but computed at query time, while noting some are kept in separate tables or stored in the index for convenience.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398871/dl
+  locator: Exhibit PXR0356, section IV
+  checked: 2026-11-20
+  note: Interview notes, not sworn testimony.
+
+- id: c03-024
+  chapter: 03
+  claim: The remedies opinion describes RankEmbed as an AI-based deep-learning system with strong natural-language understanding that can find the best documents even when a query lacks certain terms.
+  label: Testimony
+  source: https://www.courthousenews.com/wp-content/uploads/2025/09/judge-amit-mehta-google-search-monopoly-remedy-ruling.pdf
+  locator: Memorandum Opinion, ECF No. 1436, p. 154
+  checked: 2026-11-20
+  note: Court opinion; copy hosted by Courthouse News Service. Printed page number.
+
+- id: c03-025
+  chapter: 03
+  claim: Citing Nayak's liability-trial testimony, the opinion says RankEmbed particularly helped Google improve answers to long-tail queries.
+  label: Testimony
+  source: https://www.courthousenews.com/wp-content/uploads/2025/09/judge-amit-mehta-google-search-monopoly-remedy-ruling.pdf
+  locator: p. 154; citing Liab. Tr. 6356:21-25 (Nayak)
+  checked: 2026-11-20
+  note: Court opinion; copy hosted by Courthouse News Service. Printed page number.
+
+- id: c03-026
+  chapter: 03
+  claim: Citing Lehman's liability-trial testimony, the opinion says RankEmbed is trained on 1/100th of the data used for earlier ranking models yet provides higher-quality results.
+  label: Testimony
+  source: https://www.courthousenews.com/wp-content/uploads/2025/09/judge-amit-mehta-google-search-monopoly-remedy-ruling.pdf
+  locator: p. 154; citing Liab. Tr. 1846:8-22 (Lehman)
+  checked: 2026-11-20
+  note: Court opinion; copy hosted by Courthouse News Service. Printed page number.
+
+- id: c03-027
+  chapter: 03
+  claim: The opinion says RankEmbed and RankEmbedBERT rely on a share of 70 days of search logs plus human rater scores; the share is blank in the public copy.
+  label: Testimony
+  source: https://www.courthousenews.com/wp-content/uploads/2025/09/judge-amit-mehta-google-search-monopoly-remedy-ruling.pdf
+  locator: p. 154
+  checked: 2026-11-20
+  note: Court opinion; copy hosted by Courthouse News Service. Printed page number.
+
+- id: c03-028
+  chapter: 03
+  claim: The opinion says RankEmbed's training data combines click-and-query data with human raters' scoring of web pages, and includes salient terms Google derived from the query.
+  label: Testimony
+  source: https://www.courthousenews.com/wp-content/uploads/2025/09/judge-amit-mehta-google-search-monopoly-remedy-ruling.pdf
+  locator: pp. 154, 157
+  checked: 2026-11-20
+  note: Court opinion; copy hosted by Courthouse News Service. Printed page number.
+
+- id: c03-029
+  chapter: 03
+  claim: The opinion records Nayak's evidence that queries on mobile devices tend to have more location-focused intents.
+  label: Testimony
+  source: https://www.courthousenews.com/wp-content/uploads/2025/09/judge-amit-mehta-google-search-monopoly-remedy-ruling.pdf
+  locator: p. 94; citing Liab. Tr. 6316:22-6318:6 (Nayak)
+  checked: 2026-11-20
+  note: Court opinion; copy hosted by Courthouse News Service. Printed page number.
+
+- id: c03-030
+  chapter: 03
+  claim: QualitySalientTermsSalientTermSet is described as a collection of weighted unigrams and bigrams that can describe something; salientTerm lists terms in decreasing weight.
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.QualitySalientTermsSalientTermSet.html
+  locator: Module description; fields salientTerm, version
+  checked: 2026-11-20
+
+- id: c03-031
+  chapter: 03
+  claim: QualitySalientTermsSalientTerm has a salience field (importance as a descriptor in [0, 1]) and an originalTerm field listing forms in which a normalised term was found in the signals.
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.QualitySalientTermsSalientTerm.html
+  locator: Fields salience, originalTerm
+  checked: 2026-11-20
+
+- id: c03-032
+  chapter: 03
+  claim: 'The signalTerm field description reads: signal_term contains extra signal-specific (e.g., body, anchors, clicks) data for this term.'
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.QualitySalientTermsSalientTerm.html
+  locator: Field signalTerm
+  checked: 2026-11-20
+
+- id: c03-033
+  chapter: 03
+  claim: 'Google''s rater guidelines overview says intent is determined from the query and, if relevant, the user location; example: coffee shops for a user in London.'
+  label: Official
+  source: https://services.google.com/fh/files/misc/hsw-sqrg.pdf
+  locator: 'Search Quality Rater Guidelines: An Overview (Nov 2023), Section 03, p. 28'
+  checked: 2026-11-20
+
+- id: c03-034
+  chapter: 03
+  claim: The overview says many queries have more than one meaning, with the example of mercury (planet or element).
+  label: Official
+  source: https://services.google.com/fh/files/misc/hsw-sqrg.pdf
+  locator: Section 03, p. 28
+  checked: 2026-11-20
+
+- id: c03-035
+  chapter: 03
+  claim: The Needs Met scale refers to dominant, common and minor query interpretations; for a user in California, the Turkish city of Batman is treated as an extremely unlikely intent for 'batman'.
+  label: Official
+  source: https://services.google.com/fh/files/misc/hsw-sqrg.pdf
+  locator: Section 03, p. 30
+  checked: 2026-11-20
+
+- id: c03-036
+  chapter: 03
+  claim: The overview says users are assumed to want current information and raters consider a query's current meaning.
+  label: Official
+  source: https://services.google.com/fh/files/misc/hsw-sqrg.pdf
+  locator: Section 03, p. 28
+  checked: 2026-11-20
+
+- id: c03-037
+  chapter: 03
+  claim: Needs Met concerns the user's intent as interpreted from the query and how fully a result satisfies it; levels are Fully, Highly, Moderately, Slightly Meets and Fails to Meet.
+  label: Official
+  source: https://services.google.com/fh/files/misc/hsw-sqrg.pdf
+  locator: Section 03, pp. 27-30
+  checked: 2026-11-20
+
+- id: c03-038
+  chapter: 03
+  claim: Fully Meets only applies to queries with a clear intent to find one specific result.
+  label: Official
+  source: https://services.google.com/fh/files/misc/hsw-sqrg.pdf
+  locator: Section 03, p. 30
+  checked: 2026-11-20
+
+- id: c03-039
+  chapter: 03
+  claim: Google's spam policies define keyword stuffing as filling a page with keywords or numbers to manipulate rankings, often in a list or group, unnaturally or out of context.
+  label: Official
+  source: https://developers.google.com/search/docs/essentials/spam-policies
+  locator: Keyword stuffing
+  checked: 2026-11-20
+
+- id: c03-040
+  chapter: 03
+  claim: 'Keyword stuffing examples: phone number lists without added value, blocks listing cities and regions, and repeating words or phrases so often it sounds unnatural.'
+  label: Official
+  source: https://developers.google.com/search/docs/essentials/spam-policies
+  locator: Keyword stuffing
+  checked: 2026-11-20

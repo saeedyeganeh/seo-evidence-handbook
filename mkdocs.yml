@@ -35,6 +35,7 @@ nav:
   - Home: index.md
   - 01 Reading SEO evidence: chapters/01-reading-seo-evidence.md
   - 02 How Search works end to end: chapters/02-how-search-works.md
+  - 03 Relevance and search intent: chapters/03-relevance-and-search-intent.md
   - Claim ledger: sources/claims.md
   - Contributing: CONTRIBUTING.md
 

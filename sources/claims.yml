@@ -781,3 +781,282 @@
   source: https://developers.google.com/search/docs/essentials/spam-policies
   locator: Keyword stuffing
   checked: 2026-11-20
+
+- id: c04-001
+  chapter: 04
+  claim: Google's automated ranking systems are designed to give priority to helpful, reliable information.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: Opening paragraph
+  checked: 2026-11-21
+  note: Checked via the page's French-language version (last updated 2026-11-10).
+
+- id: c04-002
+  chapter: 04
+  claim: Google defines people-first content as content created mainly for people, not to manipulate search rankings.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: Focus on people-first content
+  checked: 2026-11-21
+  note: Checked via the page's French-language version (last updated 2026-11-10).
+
+- id: c04-003
+  chapter: 04
+  claim: Google's content and quality self-assessment questions ask about original information, reporting, research or analysis; substantial or comprehensive coverage; and whether content copied or rewritten from other sources adds value.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: Content and quality questions
+  checked: 2026-11-21
+  note: Checked via the page's French-language version (last updated 2026-11-10).
+
+- id: c04-004
+  chapter: 04
+  claim: The content and quality questions ask whether content was produced with care or looks rushed, has spelling or style problems, and whether it is produced by many creators or largely outsourced.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: Content and quality questions
+  checked: 2026-11-21
+  note: Checked via the page's French-language version (last updated 2026-11-10).
+
+- id: c04-005
+  chapter: 04
+  claim: The content and quality questions ask whether titles clearly summarise the page and whether headlines avoid exaggeration or shock.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: Content and quality questions
+  checked: 2026-11-21
+  note: Checked via the page's French-language version (last updated 2026-11-10).
+
+- id: c04-006
+  chapter: 04
+  claim: The questions ask whether a page is one you would bookmark, share or recommend, and whether it could appear in a printed magazine, encyclopedia or book.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: Content and quality questions
+  checked: 2026-11-21
+  note: Checked via the page's French-language version (last updated 2026-11-10).
+
+- id: c04-007
+  chapter: 04
+  claim: Google's expertise questions cover trust-inspiring presentation (e.g. sourcing, author information), whether the site seems trustworthy or authoritative, whether an expert or enthusiast wrote or reviewed it, and easily verified factual errors.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: Expertise questions
+  checked: 2026-11-21
+  note: Checked via the page's French-language version (last updated 2026-11-10).
+
+- id: c04-008
+  chapter: 04
+  claim: Of the E-E-A-T aspects, trust is the most important.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: Get to know E-E-A-T and the quality rater guidelines
+  checked: 2026-11-21
+  note: Checked via the page's French-language version (last updated 2026-11-10).
+
+- id: c04-009
+  chapter: 04
+  claim: E-E-A-T is not itself a specific ranking factor.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: Get to know E-E-A-T and the quality rater guidelines
+  checked: 2026-11-21
+  note: Checked via the page's French-language version (last updated 2026-11-10).
+
+- id: c04-010
+  chapter: 04
+  claim: Search quality raters have no control over how pages rank, and their feedback does not directly affect ranking algorithms.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: Get to know E-E-A-T and the quality rater guidelines
+  checked: 2026-11-21
+  note: Checked via the page's French-language version (last updated 2026-11-10).
+
+- id: c04-011
+  chapter: 04
+  claim: Answering yes to some or all of the search engine-first questions is a sign to re-evaluate how content is created.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: Avoid creating search engine-first content
+  checked: 2026-11-21
+  note: Checked via the page's French-language version (last updated 2026-11-10).
+
+- id: c04-012
+  chapter: 04
+  claim: Search engine-first warning signs include aiming mainly at search visits, producing lots of content on many topics hoping some performs, extensive automation, and mainly summarising others.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: Avoid creating search engine-first content
+  checked: 2026-11-21
+  note: Checked via the page's French-language version (last updated 2026-11-10).
+
+- id: c04-013
+  chapter: 04
+  claim: Google says it does not have a preferred word count.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: Avoid creating search engine-first content
+  checked: 2026-11-21
+  note: Checked via the page's French-language version (last updated 2026-11-10).
+
+- id: c04-014
+  chapter: 04
+  claim: Changing page dates to look fresh when content has not changed is listed as a search engine-first warning sign.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: Avoid creating search engine-first content
+  checked: 2026-11-21
+  note: Checked via the page's French-language version (last updated 2026-11-10).
+
+- id: c04-015
+  chapter: 04
+  claim: Adding a lot of new content or removing a lot of old content as a tactic is described as not working.
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: Avoid creating search engine-first content
+  checked: 2026-11-21
+  note: Checked via the page's French-language version (last updated 2026-11-10).
+
+- id: c04-016
+  chapter: 04
+  claim: Google's rater guidelines overview is dated November 2023 and has 36 pages.
+  label: Official
+  source: https://services.google.com/fh/files/misc/hsw-sqrg.pdf
+  locator: Cover; page footers
+  checked: 2026-11-21
+
+- id: c04-017
+  chapter: 04
+  claim: Websites and pages should be created to help people; if not, a Lowest rating may be warranted.
+  label: Official
+  source: https://services.google.com/fh/files/misc/hsw-sqrg.pdf
+  locator: Page Quality section (approx. p. 22)
+  checked: 2026-11-21
+
+- id: c04-018
+  chapter: 04
+  claim: As a general rule, main content is high quality if it takes significant effort, originality, and talent or skill to create.
+  label: Official
+  source: https://services.google.com/fh/files/misc/hsw-sqrg.pdf
+  locator: The Search Quality Rating Process (p. 25)
+  checked: 2026-11-21
+
+- id: c04-019
+  chapter: 04
+  claim: Lowest quality pages are described as untrustworthy, deceptive, or harmful to people or society.
+  label: Official
+  source: https://services.google.com/fh/files/misc/hsw-sqrg.pdf
+  locator: Page Quality section (approx. pp. 22-24)
+  checked: 2026-11-21
+
+- id: c04-020
+  chapter: 04
+  claim: Google said its March 2024 changes would together reduce low-quality, unoriginal content in search results by 40%.
+  label: Official
+  source: https://blog.google/products/search/google-search-update-march-2024/
+  locator: Reducing low-quality, unoriginal results
+  checked: 2026-11-21
+
+- id: c04-021
+  chapter: 04
+  claim: An April 26, 2024 update said rollout completed as of April 19 and reported 45% less low-quality, unoriginal content in search results.
+  label: Official
+  source: https://blog.google/products/search/google-search-update-march-2024/
+  locator: Update April 26, 2024
+  checked: 2026-11-21
+
+- id: c04-022
+  chapter: 04
+  claim: The scaled content abuse policy was strengthened to cover producing content at scale to boost rankings, whether automation, humans or a combination are involved.
+  label: Official
+  source: https://blog.google/products/search/google-search-update-march-2024/
+  locator: Scaled content abuse
+  checked: 2026-11-21
+
+- id: c04-023
+  chapter: 04
+  claim: Very low-value third-party content produced mainly for ranking without close owner oversight is treated as spam (site reputation abuse), with enforcement from May 5.
+  label: Official
+  source: https://blog.google/products/search/google-search-update-march-2024/
+  locator: Site reputation abuse
+  checked: 2026-11-21
+
+- id: c04-024
+  chapter: 04
+  claim: Expired domains bought and repurposed to boost low-quality content are considered spam.
+  label: Official
+  source: https://blog.google/products/search/google-search-update-march-2024/
+  locator: Expired domain abuse
+  checked: 2026-11-21
+
+- id: c04-025
+  chapter: 04
+  claim: QualityNsrPQData.contentEffort is described as LLM-based effort estimation for article pages; type is a list of QualityNsrVersionedFloatSignal.
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.QualityNsrPQData.html
+  locator: QualityNsrPQData.contentEffort
+  checked: 2026-11-21
+
+- id: c04-026
+  chapter: 04
+  claim: CompressedQualitySignals.ugcDiscussionEffortScore is described as UGC page quality signals, times 1000 and floored.
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.CompressedQualitySignals.html
+  locator: CompressedQualitySignals.ugcDiscussionEffortScore
+  checked: 2026-11-21
+
+- id: c04-027
+  chapter: 04
+  claim: PerDocData.OriginalContentScore is represented in 7 bits (0-127), and only pages with little content have this field.
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.PerDocData.html
+  locator: PerDocData.OriginalContentScore
+  checked: 2026-11-21
+
+- id: c04-028
+  chapter: 04
+  claim: PerDocData defines KeywordStuffingScore and GibberishScore, each represented in 7 bits (0-127).
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.PerDocData.html
+  locator: PerDocData.KeywordStuffingScore; PerDocData.GibberishScore
+  checked: 2026-11-21
+
+- id: c04-029
+  chapter: 04
+  claim: CompressedQualitySignals.lowQuality is described as an S2V low quality score converted from quality_nsr.NsrData, applied in Qstar.
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.CompressedQualitySignals.html
+  locator: CompressedQualitySignals.lowQuality
+  checked: 2026-11-21
+
+- id: c04-030
+  chapter: 04
+  claim: CompressedQualitySignals.pandaDemotion encodes Panda fields from the SiteQualityFeatures proto; babyPandaV2Demotion is a new demotion applied on top of Panda, meant to replace baby_panda_demotion.
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.CompressedQualitySignals.html
+  locator: CompressedQualitySignals.pandaDemotion; babyPandaV2Demotion
+  checked: 2026-11-21
+
+- id: c04-031
+  chapter: 04
+  claim: CompressedQualitySignals.pqData is described as encoded page-level PQ signals.
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.CompressedQualitySignals.html
+  locator: CompressedQualitySignals.pqData
+  checked: 2026-11-21
+
+- id: c04-032
+  chapter: 04
+  claim: QualityNsrPQData.vlq is described as the URL-level score of the VLQ model.
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.QualityNsrPQData.html
+  locator: QualityNsrPQData.vlq
+  checked: 2026-11-21
+
+- id: c04-033
+  chapter: 04
+  claim: Public guidance, the rater framework and leaked field names together suggest effort and originality are things Google has tried to measure, not only recommend.
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/04-content-quality-originality-effort.md
+  locator: Section 4.5
+  checked: 2026-11-21

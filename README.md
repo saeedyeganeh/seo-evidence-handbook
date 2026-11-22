@@ -34,7 +34,7 @@ Read [Chapter 1](chapters/01-reading-seo-evidence.md) first. It explains what ea
 | 02 | [How Google Search works end to end](chapters/02-how-search-works.md) | Draft v0.1 |
 | 03 | [Relevance and search intent](chapters/03-relevance-and-search-intent.md) | Draft v0.1 |
 | 04 | [Content quality, originality and effort](chapters/04-content-quality-originality-effort.md) | Draft v0.1 |
-| 05 | Links and how they are weighted | Planned |
+| 05 | [Links and how they are weighted](chapters/05-links-and-how-they-are-weighted.md) | Draft v0.1 |
 | 06 | Link spam and patterns | Planned |
 | 07 | Site-level quality signals | Planned |
 | 08 | User interaction signals and NavBoost | Planned |

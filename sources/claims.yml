@@ -1060,3 +1060,246 @@
   source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/04-content-quality-originality-effort.md
   locator: Section 4.5
   checked: 2026-11-21
+
+- id: c05-001
+  chapter: 05
+  claim: "Brin and Page explain PageRank with a 'random surfer' who is given a random web page and keeps clicking on links."
+  label: Secondhand
+  source: https://www2.math.upenn.edu/~kazdan/210/LectureNotes/Google/Brin-Page.html
+  locator: "Section 2.1.2 Intuitive Justification"
+  checked: 2026-11-22
+
+- id: c05-002
+  chapter: 05
+  claim: "In the original paper, a page can have high PageRank if many pages point to it, or if some pages with high PageRank point to it."
+  label: Secondhand
+  source: https://www2.math.upenn.edu/~kazdan/210/LectureNotes/Google/Brin-Page.html
+  locator: "Section 2.1.2"
+  checked: 2026-11-22
+
+- id: c05-003
+  chapter: 05
+  claim: "The original PageRank formula includes a damping factor d, which the authors usually set to 0.85."
+  label: Secondhand
+  source: https://www2.math.upenn.edu/~kazdan/210/LectureNotes/Google/Brin-Page.html
+  locator: "Section 2.1.1"
+  checked: 2026-11-22
+
+- id: c05-004
+  chapter: 05
+  claim: "The original Google design associated anchor text with the page the link points to, not only the page containing the link."
+  label: Secondhand
+  source: https://www2.math.upenn.edu/~kazdan/210/LectureNotes/Google/Brin-Page.html
+  locator: "Section 2.2 Anchor Text"
+  checked: 2026-11-22
+
+- id: c05-005
+  chapter: 05
+  claim: "Brin and Page gave two reasons for using anchor text: anchors often describe pages more accurately than the pages themselves, and anchors exist for documents a text-based engine cannot index (images, programs, databases)."
+  label: Secondhand
+  source: https://www2.math.upenn.edu/~kazdan/210/LectureNotes/Google/Brin-Page.html
+  locator: "Section 2.2"
+  checked: 2026-11-22
+
+- id: c05-006
+  chapter: 05
+  claim: "Google asks site owners to mark ads and paid placements with rel=sponsored, user-generated content links with rel=ugc, and to use rel=nofollow otherwise when they do not want their site associated with, or crawled from, the linked page."
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links?hl=en
+  locator: "Main definitions"
+  checked: 2026-11-22
+  note: "Checked via the Turkish-language version of the page (last updated 2026-11-12); paraphrased."
+
+- id: c05-007
+  chapter: 05
+  claim: "Multiple rel values can be combined, e.g. rel='ugc nofollow'; nofollow was previously recommended for paid links and is still acceptable, but sponsored is preferred."
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links?hl=en
+  locator: "Combining values; note on paid links"
+  checked: 2026-11-22
+  note: "Checked via the Turkish-language version; paraphrased."
+
+- id: c05-008
+  chapter: 05
+  claim: "Links marked with these rel attributes are generally not followed, but the linked pages may still be found through other means such as sitemaps or links from other sites."
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links?hl=en
+  locator: "Note on crawling"
+  checked: 2026-11-22
+  note: "Checked via the Turkish-language version; paraphrased."
+
+- id: c05-009
+  chapter: 05
+  claim: "Google introduced rel=sponsored and rel=ugc on 10 September 2019, in a post by Danny Sullivan and Gary Illyes."
+  label: Official
+  source: https://developers.google.com/search/blog/2019/09/evolving-nofollow-new-ways-to-identify?hl=en
+  locator: "Post header and introduction"
+  checked: 2026-11-22
+  note: "Article body read through an extracted summary; paraphrased."
+
+- id: c05-010
+  chapter: 05
+  claim: "Google treats sponsored, ugc and nofollow as hints about which links to consider or exclude in Search, because links carry useful information such as how anchor text describes the target."
+  label: Official
+  source: https://developers.google.com/search/blog/2019/09/evolving-nofollow-new-ways-to-identify?hl=en
+  locator: "Section on hints"
+  checked: 2026-11-22
+  note: "Article body read through an extracted summary; paraphrased."
+
+- id: c05-011
+  chapter: 05
+  claim: "From 1 March 2020, nofollow became a hint for crawling and indexing; site owners do not need to change existing nofollow links."
+  label: Official
+  source: https://developers.google.com/search/blog/2019/09/evolving-nofollow-new-ways-to-identify?hl=en
+  locator: "Section on crawling and indexing"
+  checked: 2026-11-22
+  note: "Article body read through an extracted summary; paraphrased."
+
+- id: c05-012
+  chapter: 05
+  claim: "The HJ Kim call summary defines Anchors (A) as a source page pointing to a target page (links)."
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398871/dl
+  locator: "PXR0356, p. 1"
+  checked: 2026-11-22
+  note: "Call summary, 18 Feb 2025; not sworn testimony."
+
+- id: c05-013
+  chapter: 05
+  claim: "The HJ Kim call summary describes PageRank as a single signal relating to distance from a known good source, used as an input to the Quality score."
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398871/dl
+  locator: "PXR0356, p. 3"
+  checked: 2026-11-22
+  note: "Call summary, 18 Feb 2025; not sworn testimony."
+
+- id: c05-014
+  chapter: 05
+  claim: "The HJ Kim call summary calls Q* (page quality, i.e. trustworthiness) incredibly important, and largely static but in certain instances affected by the query."
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398871/dl
+  locator: "PXR0356, pp. 3-4"
+  checked: 2026-11-22
+  note: "Call summary, 18 Feb 2025."
+
+- id: c05-015
+  chapter: 05
+  claim: "The Pandu Nayak call summary says PageRank, one of Google's original signals, continues to be one of the factors that go into the quality signals for pages."
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398866/dl
+  locator: "PXR0357, p. 1"
+  checked: 2026-11-22
+  note: "Call summary, 31 Jan 2025; not sworn testimony."
+
+- id: c05-016
+  chapter: 05
+  claim: "The Pandu Nayak call summary says a Google signal called Anchor identified a document's quality in part by how many other documents linked to it."
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398866/dl
+  locator: "PXR0357, p. 4"
+  checked: 2026-11-22
+  note: "Call summary, 31 Jan 2025."
+
+- id: c05-017
+  chapter: 05
+  claim: "'Distance from a known good source' suggests PageRank has changed since the original random-surfer description towards closeness to trusted pages."
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/05-links-and-how-they-are-weighted.md
+  locator: "Section 5.3"
+  checked: 2026-11-22
+
+- id: c05-018
+  chapter: 05
+  claim: "AnchorsAnchor.sourceType records the quality of the anchor's source page; it is correlated with but not identical to the source page's index tier, with high, medium and low quality types."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.AnchorsAnchor.html
+  locator: "AnchorsAnchor.sourceType"
+  checked: 2026-11-22
+
+- id: c05-019
+  chapter: 05
+  claim: "AnchorsAnchor.weight is an integer on a 0-127 scale; pagerankWeight is described as weight to be stored in linkmaps for pageranker."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.AnchorsAnchor.html
+  locator: "AnchorsAnchor.weight; pagerankWeight"
+  checked: 2026-11-22
+
+- id: c05-020
+  chapter: 05
+  claim: "AnchorsAnchor.isLocal roughly marks whether source and target share a domain; parallelLinks counts additional links from the same source page to the same target domain."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.AnchorsAnchor.html
+  locator: "AnchorsAnchor.isLocal; parallelLinks"
+  checked: 2026-11-22
+
+- id: c05-021
+  chapter: 05
+  claim: "AnchorsAnchor.firstseenDate records when the link was first seen; creationDate is described as the first and last time the anchor was seen."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.AnchorsAnchor.html
+  locator: "AnchorsAnchor.firstseenDate; creationDate"
+  checked: 2026-11-22
+
+- id: c05-022
+  chapter: 05
+  claim: "AnchorsAnchor stores anchor text (text, origText) and context2, a hash of terms near the anchor; experimental marks anchors not to be used in serving."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.AnchorsAnchor.html
+  locator: "AnchorsAnchor.text; origText; context2; experimental"
+  checked: 2026-11-22
+
+- id: c05-023
+  chapter: 05
+  claim: "AnchorsAnchorSource holds source-page attributes including pagerank and pagerankNs (uint16 scale), spamrank, indyrank and nsr."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.AnchorsAnchorSource.html
+  locator: "AnchorsAnchorSource fields"
+  checked: 2026-11-22
+
+- id: c05-024
+  chapter: 05
+  claim: "AnchorsAnchorSource.homePageInfo records whether the source page is a home page, with values NOT_HOMEPAGE, NOT_TRUSTED, PARTIALLY_TRUSTED and FULLY_TRUSTED; per-value meanings are not given."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.AnchorsAnchorSource.html
+  locator: "AnchorsAnchorSource.homePageInfo"
+  checked: 2026-11-22
+
+- id: c05-025
+  chapter: 05
+  claim: "The Anchors module counts anchors dropped during processing (local homepage, local non-homepage, non-local, redundant) and records the index tier the anchors were extracted from."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.Anchors.html
+  locator: "Anchors.*AnchorsDropped; indexTier"
+  checked: 2026-11-22
+
+- id: c05-026
+  chapter: 05
+  claim: "IndexingDocjoinerAnchorSpamInfo summarises the output of AnchorSpamPenalizer; spammy anchors are tagged and demoted. Fields include spam probability, combined penalty, spam phrase count and average daily rate of spam anchor discovery."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.IndexingDocjoinerAnchorSpamInfo.html
+  locator: "Module description; spamProbability; spamPenalty; phraseCount; phraseRate"
+  checked: 2026-11-22
+
+- id: c05-027
+  chapter: 05
+  claim: "Original design, 2025 call summaries and API fields together suggest Google weights links mainly by where they come from, not by how many there are."
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/05-links-and-how-they-are-weighted.md
+  locator: "Section 5.4"
+  checked: 2026-11-22
+
+- id: c05-028
+  chapter: 05
+  claim: "At Pubcon Pro in Austin (2023), Gary Illyes said people overestimate links, that they have not been a top-three ranking factor for some time, and that it is possible to rank without links."
+  label: Secondhand
+  source: https://searchengineland.com/links-google-search-ranking-factor-gary-illyes-432422
+  locator: "Search Engine Land report"
+  checked: 2026-11-22
+
+- id: c05-029
+  chapter: 05
+  claim: "At SERP Conf in April 2024, Illyes reportedly said Google needs very few links to rank pages; the report relays an attendee's post and shows a later Illyes post on X saying he should not have said it."
+  label: Secondhand
+  source: https://www.seroundtable.com/google-very-few-links-needed-rank-pages-37267.html
+  locator: "Search Engine Roundtable, 22 Apr 2024"
+  checked: 2026-11-22

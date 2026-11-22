@@ -37,6 +37,7 @@ nav:
   - 02 How Search works end to end: chapters/02-how-search-works.md
   - 03 Relevance and search intent: chapters/03-relevance-and-search-intent.md
   - 04 Content quality, originality and effort: chapters/04-content-quality-originality-effort.md
+  - 05 Links and how they are weighted: chapters/05-links-and-how-they-are-weighted.md
   - Claim ledger: sources/claims.md
   - Contributing: CONTRIBUTING.md
 

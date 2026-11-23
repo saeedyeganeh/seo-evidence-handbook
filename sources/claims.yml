@@ -1303,3 +1303,186 @@
   source: https://www.seroundtable.com/google-very-few-links-needed-rank-pages-37267.html
   locator: "Search Engine Roundtable, 22 Apr 2024"
   checked: 2026-11-22
+
+- id: c06-001
+  chapter: 06
+  claim: "Google defines link spam as creating links to or from a site primarily to manipulate search rankings."
+  label: Official
+  source: https://developers.google.com/search/docs/essentials/spam-policies?hl=en
+  locator: "Section \"Link spam\", definition"
+  checked: 2026-11-23
+
+- id: c06-002
+  chapter: 06
+  claim: "The link spam policy lists examples including buying or selling links (money, goods, services, products for reviews), excessive link exchanges, automated link creation, required links in terms or contracts, text ads and advertorials that pass ranking credit, optimised anchor text in articles, guest posts or press releases, low-quality directory or bookmark links, widget links, widely distributed footer or template links, forum comments with optimised links, and low-value content created to manipulate linking signals."
+  label: Official
+  source: https://developers.google.com/search/docs/essentials/spam-policies?hl=en
+  locator: "Section \"Link spam\", example list"
+  checked: 2026-11-23
+
+- id: c06-003
+  chapter: 06
+  claim: "Google says buying and selling links is a normal part of web advertising and sponsorship, and such links do not violate the policy if qualified with rel=nofollow or rel=sponsored."
+  label: Official
+  source: https://developers.google.com/search/docs/essentials/spam-policies?hl=en
+  locator: "Section \"Link spam\", paragraph after the examples"
+  checked: 2026-11-23
+
+- id: c06-004
+  chapter: 06
+  claim: "Google detects spam-policy violations through automated systems and, as needed, human review that can result in a manual action; violating sites may rank lower or not appear in results."
+  label: Official
+  source: https://developers.google.com/search/docs/essentials/spam-policies?hl=en
+  locator: "Page introduction"
+  checked: 2026-11-23
+  note: "Page last updated 2026-08-28."
+
+- id: c06-005
+  chapter: 06
+  claim: "Google's ranking systems guide lists Penguin as a retired system built to fight link spam, launched in 2012 and later integrated into the core ranking systems."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/ranking-systems-guide
+  locator: "Section \"Retired systems\", Penguin"
+  checked: 2026-11-23
+  note: "Read in the Russian-language version served by the site; paraphrased."
+
+- id: c06-006
+  chapter: 06
+  claim: "In September 2016 Google announced Penguin had become real-time and more granular, devaluing spam by adjusting ranking based on spam signals rather than affecting the ranking of the whole site."
+  label: Official
+  source: https://developers.google.com/search/blog/2016/09/penguin-is-now-part-of-our-core
+  locator: "Blog post by Gary Illyes, 23 Sep 2016"
+  checked: 2026-11-23
+  note: "Article body read via extracted summary; paraphrased."
+
+- id: c06-007
+  chapter: 06
+  claim: "Google's July 2021 link spam update was described as making Google more effective at identifying and nullifying link spam across languages; links from sites taking part in link spam are re-assessed by its algorithms; rollout took about two weeks."
+  label: Official
+  source: https://developers.google.com/search/blog/2021/07/link-tagging-and-link-spam-update
+  locator: "Blog post by Duy Nguyen, 26 Jul 2021"
+  checked: 2026-11-23
+  note: "Article body read via extracted summary; paraphrased."
+
+- id: c06-008
+  chapter: 06
+  claim: "The July 2021 post said affiliate links are generally fine, but sites failing to qualify them may receive manual actions; Google strongly recommends rel values on sponsored and guest post links, and algorithmic and manual actions may apply."
+  label: Official
+  source: https://developers.google.com/search/blog/2021/07/link-tagging-and-link-spam-update
+  locator: "Sections on affiliate links and sponsored/guest posts"
+  checked: 2026-11-23
+  note: "Article body read via extracted summary; paraphrased."
+
+- id: c06-009
+  chapter: 06
+  claim: "The December 2022 link spam update used SpamBrain to neutralise the impact of unnatural links; SpamBrain could detect both sites buying links and sites used to pass outgoing links; credit from unnatural links may be lost; rollout took about two weeks."
+  label: Official
+  source: https://developers.google.com/search/blog/2022/12/december-22-link-spam-update
+  locator: "Blog post, 14 Dec 2022"
+  checked: 2026-11-23
+  note: "Article body read via extracted summary; paraphrased."
+
+- id: c06-010
+  chapter: 06
+  claim: "Google's ranking systems guide describes SpamBrain as one of several systems used to detect content and behaviour that violate its spam policies, updated over time."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/ranking-systems-guide
+  locator: "Section \"Spam detection systems\""
+  checked: 2026-11-23
+  note: "Read in the Russian-language version served by the site; paraphrased."
+
+- id: c06-011
+  chapter: 06
+  claim: "For a site hit only algorithmically, the practical effect of link spam handling is likely to look like lost credit rather than a site-wide penalty."
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/06-link-spam-and-patterns.md
+  locator: "Section 6.2"
+  checked: 2026-11-23
+
+- id: c06-012
+  chapter: 06
+  claim: "Google issues a manual action when a human reviewer determines that pages on a site do not comply with its spam policies."
+  label: Official
+  source: https://support.google.com/webmasters/answer/9044175?hl=en
+  locator: "Manual actions report, introduction"
+  checked: 2026-11-23
+
+- id: c06-013
+  chapter: 06
+  claim: "For the 'Unnatural links to your site' manual action, Google recommends exporting links, checking them, asking for removal or nofollow, disavowing what cannot be removed, and requesting review; blanket disavowal is not considered a good-faith effort and organic links should not be disavowed."
+  label: Official
+  source: https://support.google.com/webmasters/answer/9044175?hl=en
+  locator: "Section \"Unnatural links to your site\""
+  checked: 2026-11-23
+
+- id: c06-014
+  chapter: 06
+  claim: "For 'Unnatural links to your site—impacts links', Google applies a targeted action to the links, not the site's overall ranking; if the owner does not control the links no action is required, as they already do not count."
+  label: Official
+  source: https://support.google.com/webmasters/answer/2604772?hl=en
+  locator: "Full page"
+  checked: 2026-11-23
+
+- id: c06-015
+  chapter: 06
+  claim: "For 'Unnatural links from your site', Google recommends removing violating outbound links or changing them so they no longer pass PageRank, then requesting review."
+  label: Official
+  source: https://support.google.com/webmasters/answer/9044175?hl=en
+  locator: "Section \"Unnatural links from your site\""
+  checked: 2026-11-23
+
+- id: c06-016
+  chapter: 06
+  claim: "Review should be requested only when issues are fixed on all pages; most reconsideration reviews take several days or weeks, and link-related ones may take longer."
+  label: Official
+  source: https://support.google.com/webmasters/answer/9044175?hl=en
+  locator: "Section on requesting review"
+  checked: 2026-11-23
+
+- id: c06-017
+  chapter: 06
+  claim: "Google says most sites will not need the disavow tool; it should be used only when a site has a considerable number of spammy, artificial or low-quality links that have caused or likely will cause a manual action, after trying to remove them."
+  label: Official
+  source: https://support.google.com/webmasters/answer/2648487?hl=en
+  locator: "Before you begin / when to disavow"
+  checked: 2026-11-23
+
+- id: c06-018
+  chapter: 06
+  claim: "Disavow file rules: one URL or domain per line, domain: prefix for domains, no subpaths, # comments ignored, .txt in UTF-8 or 7-bit ASCII, max 100,000 lines and 2 MB, URLs up to 2,048 characters; a new upload replaces the old list; applies to the property and child properties; Domain properties not supported; takes a few weeks to take effect."
+  label: Official
+  source: https://support.google.com/webmasters/answer/2648487?hl=en
+  locator: "File format and upload sections"
+  checked: 2026-11-23
+
+- id: c06-019
+  chapter: 06
+  claim: "IndexingDocjoinerAnchorSpamInfo summarises the output of AnchorSpamPenalizer; spammy anchors are tagged LINK_SPAM_PHRASE_PENALIZER and demoted to SPAM locality."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.IndexingDocjoinerAnchorSpamInfo.html
+  locator: "Module description, package v0.4.0"
+  checked: 2026-11-23
+
+- id: c06-020
+  chapter: 06
+  claim: "IndexingDocjoinerAnchorSpamInfo fields include phraseCount, phraseFraq, phraseDays (days over which 80% of spam phrases were discovered), phraseRate (average daily rate of spam anchor discovery), spamProbability, spamPenalty, demoted, demotedAll, demotedStart, demotedEnd and anchorFraq."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.IndexingDocjoinerAnchorSpamInfo.html
+  locator: "Fields, package v0.4.0"
+  checked: 2026-11-23
+
+- id: c06-021
+  chapter: 06
+  claim: "IndexingDocjoinerAnchorSpamInfo records trusted-source data: trustedTotal, trustedTarget, trustedDemoted (trusted anchors used in spam-probability computation), trustedMatching (trusted anchors whose text matches spam terms) and trustedExamples."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.IndexingDocjoinerAnchorSpamInfo.html
+  locator: "Fields trusted*, package v0.4.0"
+  checked: 2026-11-23
+
+- id: c06-022
+  chapter: 06
+  claim: "The anchor spam fields suggest the component reacts to bursts of spam-like anchor text checked against trusted sources."
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/06-link-spam-and-patterns.md
+  locator: "Section 6.6"
+  checked: 2026-11-23

@@ -1486,3 +1486,231 @@
   source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/06-link-spam-and-patterns.md
   locator: "Section 6.6"
   checked: 2026-11-23
+
+- id: c07-001
+  chapter: 07
+  claim: Google's ranking systems are designed to work on the page level; site-wide signals and classifiers are also used and contribute to understanding pages; good site-wide signals do not mean all content from a site will always rank highly.
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/ranking-systems-guide
+  locator: Introductory paragraph (last updated 2025-12-10)
+  checked: 2026-11-24
+
+- id: c07-002
+  chapter: 07
+  claim: Search Engine Roundtable reported on 20 Nov 2024 that Google added the page-level/site-wide paragraph to the ranking systems guide to make clear it has both kinds of signals.
+  label: Secondhand
+  source: https://www.seroundtable.com/google-search-site-wide-page-level-signals-38440.html
+  locator: Article, 20 Nov 2024
+  checked: 2026-11-24
+
+- id: c07-003
+  chapter: 07
+  claim: Search Engine Journal reported the same ranking systems guide change on 19 Nov 2024.
+  label: Secondhand
+  source: https://www.searchenginejournal.com/google-page-level-site-wide-signals-both-matter-for-rankings/533063/
+  locator: Article, 19 Nov 2024
+  checked: 2026-11-24
+
+- id: c07-004
+  chapter: 07
+  claim: Google's March 2024 core update post said core ranking systems are primarily designed to work on the page level and that Google has some site-wide signals that are also considered.
+  label: Official
+  source: https://developers.google.com/search/blog/2024/03/core-update-spam-policies
+  locator: Post of 5 Mar 2024
+  checked: 2026-11-24
+
+- id: c07-005
+  chapter: 07
+  claim: The March 2024 post said third-party 'reputation' or 'authority' scores do not correspond to Google's own signals and do not come from Google.
+  label: Official
+  source: https://developers.google.com/search/blog/2024/03/core-update-spam-policies
+  locator: Post of 5 Mar 2024
+  checked: 2026-11-24
+
+- id: c07-006
+  chapter: 07
+  claim: The August 2022 helpful content update introduced a new site-wide signal considered among many other signals for ranking web pages.
+  label: Official
+  source: https://developers.google.com/search/blog/2022/08/helpful-content-update?authuser=8
+  locator: Post by Chris Nelson, 18 Aug 2022
+  checked: 2026-11-24
+
+- id: c07-007
+  chapter: 07
+  claim: Google said removing unhelpful content could help the rankings of other content; the signal may be applied over a period of months; it is weighted, and sites with lots of unhelpful content may notice a stronger effect.
+  label: Official
+  source: https://developers.google.com/search/blog/2022/08/helpful-content-update?authuser=8
+  locator: Post by Chris Nelson, 18 Aug 2022
+  checked: 2026-11-24
+
+- id: c07-008
+  chapter: 07
+  claim: 'The ranking systems guide lists the helpful content system under Retired systems: announced in 2022, it became part of the core ranking systems in March 2024.'
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/ranking-systems-guide
+  locator: Section 'Retired systems'
+  checked: 2026-11-24
+
+- id: c07-009
+  chapter: 07
+  claim: The March 2024 post said there is no longer one signal or system used to judge helpfulness.
+  label: Official
+  source: https://developers.google.com/search/blog/2024/03/core-update-spam-policies
+  locator: Post of 5 Mar 2024
+  checked: 2026-11-24
+
+- id: c07-010
+  chapter: 07
+  claim: Removing unhelpful content may still help the rest of a site under the current documentation; this is not guaranteed.
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/07-site-level-quality-signals.md
+  locator: Section 7.2
+  checked: 2026-11-24
+
+- id: c07-011
+  chapter: 07
+  claim: The ranking systems guide says Panda was announced in 2011 and became part of the core ranking systems in 2015.
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/ranking-systems-guide
+  locator: Section 'Retired systems'
+  checked: 2026-11-24
+
+- id: c07-012
+  chapter: 07
+  claim: Core updates are broad and do not target specific sites or pages; after a large sustained drop Google points to a self-assessment of whether the site overall is helpful, reliable and people-first.
+  label: Official
+  source: https://developers.google.com/search/updates/core-updates
+  locator: Core updates page (last updated 2025-12-10)
+  checked: 2026-11-24
+
+- id: c07-013
+  chapter: 07
+  claim: Some changes can take effect in a few days, but it could take several months for Google's systems to confirm a site as a whole produces helpful content; it may mean waiting until the next core update; deleting content is a last resort.
+  label: Official
+  source: https://developers.google.com/search/updates/core-updates
+  locator: Core updates page, recovery guidance
+  checked: 2026-11-24
+
+- id: c07-014
+  chapter: 07
+  claim: The site reputation abuse policy targets third-party pages published with little or no first-party oversight to exploit the host's ranking signals, effective from 5 May 2024.
+  label: Official
+  source: https://developers.google.com/search/blog/2024/03/core-update-spam-policies
+  locator: Post of 5 Mar 2024
+  checked: 2026-11-24
+
+- id: c07-015
+  chapter: 07
+  claim: The November 2024 clarification says exploiting a host site's ranking signals with third-party content breaks the policy regardless of first-party involvement; moving it to a subdirectory or subdomain does not resolve it; enforcement is by manual actions.
+  label: Official
+  source: https://developers.google.com/search/blog/2024/11/site-reputation-abuse?hl=en
+  locator: Post of 19 Nov 2024, body and FAQ
+  checked: 2026-11-24
+  note: Read through an extracted summary; paraphrased.
+
+- id: c07-016
+  chapter: 07
+  claim: From 30 August 2026, the impact of site reputation manual actions does not apply for users inside the EEA but still applies outside it, following discussion with the European Commission.
+  label: Official
+  source: https://developers.google.com/search/blog/2026/08/update-site-reputation-policy
+  locator: Post of 28 Aug 2026
+  checked: 2026-11-24
+
+- id: c07-017
+  chapter: 07
+  claim: Expired domain abuse is buying an expired domain and repurposing it primarily to manipulate search rankings; examples include affiliate content on a former government agency site and casino content on a former elementary school site.
+  label: Official
+  source: https://developers.google.com/search/docs/essentials/spam-policies
+  locator: Section 'Expired domain abuse'
+  checked: 2026-11-24
+
+- id: c07-018
+  chapter: 07
+  claim: Site reputation and expired domain policies are the strongest indirect evidence that site-level signals carry real ranking value.
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/07-site-level-quality-signals.md
+  locator: Section 7.4
+  checked: 2026-11-24
+
+- id: c07-019
+  chapter: 07
+  claim: The site diversity system generally shows no more than two listings from the same site in top results and generally treats subdomains as part of the root domain.
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/ranking-systems-guide
+  locator: Section 'Site diversity system'
+  checked: 2026-11-24
+
+- id: c07-020
+  chapter: 07
+  claim: The exact match domain system stops domains that exactly match queries from getting too much credit.
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/ranking-systems-guide
+  locator: Section 'Exact match domain system'
+  checked: 2026-11-24
+
+- id: c07-021
+  chapter: 07
+  claim: PXR0356 is notes of an 18 Feb 2025 call with Google engineer HJ Kim, not sworn trial testimony.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398871/dl
+  locator: Header, p. 1
+  checked: 2026-11-24
+  note: Interview notes; author not stated.
+
+- id: c07-022
+  chapter: 07
+  claim: The notes describe Q* as page quality (the notion of trustworthiness), largely static, largely related to the site rather than the query, with query-dependent exceptions computed online.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398871/dl
+  locator: pp. 3-4
+  checked: 2026-11-24
+  note: Interview notes.
+
+- id: c07-023
+  chapter: 07
+  claim: The notes say a PageRank-type signal, distance from a known good source, is an input to the quality score, and that HJ Kim started the page quality team 17 years earlier in response to content farms.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398871/dl
+  locator: p. 3
+  checked: 2026-11-24
+  note: Interview notes.
+
+- id: c07-024
+  chapter: 07
+  claim: QualityNsrNsrData includes siteChunk (primary NSR sitechunk), tofu and chardEncoded (site-level content-based quality predictors), clutterScore (site-level signal in Q* penalising distracting resources), siteQualityStddev (spread of page-level PQ ratings).
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.QualityNsrNsrData.html
+  locator: Fields, package v0.4.0
+  checked: 2026-11-24
+
+- id: c07-025
+  chapter: 07
+  claim: QualityNsrNsrData also includes smallPersonalSite (score of small personal site promotion), titlematchScore, localityScore, spambrainLavcScore (as of July 2022), nsrOverrideBid (override NSR as a bid in Q*, emergencies only), priorAdjustedNsr, impressions and chromeInTotal (site-level Chrome views).
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.QualityNsrNsrData.html
+  locator: Fields, package v0.4.0
+  checked: 2026-11-24
+
+- id: c07-026
+  chapter: 07
+  claim: siteQualityStddev suggests Google tracks how uneven quality is across a site, not only its average.
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/07-site-level-quality-signals.md
+  locator: Section 7.7
+  checked: 2026-11-24
+
+- id: c07-027
+  chapter: 07
+  claim: US9195944B1 'Scoring site quality' describes computing a site quality score as a statistical measure of user visit durations on a site's resources; priority 24 Feb 2012, granted 24 Nov 2015.
+  label: Patent
+  source: https://patents.google.com/patent/US9195944
+  locator: Abstract and description
+  checked: 2026-11-24
+
+- id: c07-028
+  chapter: 07
+  claim: US8442984B1 'Website quality signal generation' describes rating websites, modelling relationships between ratings and website signals, and applying models to rate unrated websites; filed 31 Mar 2008.
+  label: Patent
+  source: https://patents.google.com/patent/US8442984
+  locator: Abstract
+  checked: 2026-11-24

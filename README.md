@@ -37,7 +37,7 @@ Read [Chapter 1](chapters/01-reading-seo-evidence.md) first. It explains what ea
 | 05 | [Links and how they are weighted](chapters/05-links-and-how-they-are-weighted.md) | Draft v0.1 |
 | 06 | [Link spam and patterns](chapters/06-link-spam-and-patterns.md) | Draft v0.1 |
 | 07 | [Site-level quality signals](chapters/07-site-level-quality-signals.md) | Draft v0.1 |
-| 08 | User interaction signals and NavBoost | Planned |
+| 08 | [User interaction signals and NavBoost](chapters/08-user-interaction-signals-and-navboost.md) | Draft v0.1 |
 | 09 | Titles and snippets in results | Planned |
 | 10 | Freshness | Planned |
 | 11 | Sensitive (YMYL) topics | Planned |

@@ -1714,3 +1714,264 @@
   source: https://patents.google.com/patent/US8442984
   locator: Abstract
   checked: 2026-11-24
+
+
+- id: c08-001
+  chapter: 08
+  claim: Google says it uses aggregated and anonymized interaction data to assess whether search results are relevant, and turns that data into signals for its machine-learned systems.
+  label: Official
+  source: https://google.com/intl/en/search/howsearchworks/how-search-works/ranking-results/
+  locator: Section 'Relevance of content'
+  checked: 2026-11-25
+
+- id: c08-002
+  chapter: 08
+  claim: Google says it can personalise results using location, past Search history and settings, and can move a page a user has visited several times higher for that user.
+  label: Official
+  source: https://google.com/intl/en/search/howsearchworks/how-search-works/ranking-results/
+  locator: Section 'Context and settings'
+  checked: 2026-11-25
+
+- id: c08-003
+  chapter: 08
+  claim: In a February 2019 Reddit AMA, Gary Illyes called dwell time, CTR and similar theories 'generally made up crap'.
+  label: Secondhand
+  source: https://www.seroundtable.com/google-ctr-dwell-time-signals-myths-27083.html
+  locator: Report dated 8 Feb 2019
+  checked: 2026-11-25
+
+- id: c08-004
+  chapter: 08
+  claim: Pandu Nayak agreed that NavBoost is one of Google's core systems and dates back to about 2005, possibly earlier.
+  label: Testimony
+  source: https://thecapitolforum.com/wp-content/uploads/2023/10/101823-USA-v-Google-PM.pdf
+  locator: p. 6402
+  checked: 2026-11-25
+  note: Sworn trial testimony, 18 Oct 2023 PM; wording largely counsel's
+
+- id: c08-005
+  chapter: 08
+  claim: Nayak agreed that NavBoost memorises past clicks for past queries and is trained on user data.
+  label: Testimony
+  source: https://thecapitolforum.com/wp-content/uploads/2023/10/101823-USA-v-Google-PM.pdf
+  locator: p. 6405
+  checked: 2026-11-25
+
+- id: c08-006
+  chapter: 08
+  claim: Nayak agreed that NavBoost holds data for queries from the past 13 months, and that before 2017 the window was 18 months.
+  label: Testimony
+  source: https://thecapitolforum.com/wp-content/uploads/2023/10/101823-USA-v-Google-PM.pdf
+  locator: p. 6405
+  checked: 2026-11-25
+
+- id: c08-007
+  chapter: 08
+  claim: Nayak agreed that NavBoost slices data by locale and by mobile versus desktop, and said mobile is one of the slices.
+  label: Testimony
+  source: https://thecapitolforum.com/wp-content/uploads/2023/10/101823-USA-v-Google-PM.pdf
+  locator: pp. 6412-6413, 6420
+  checked: 2026-11-25
+
+- id: c08-008
+  chapter: 08
+  claim: Nayak described Glue as another name for NavBoost that includes the other features on the results page.
+  label: Testimony
+  source: https://thecapitolforum.com/wp-content/uploads/2023/10/101823-USA-v-Google-PM.pdf
+  locator: p. 6403
+  checked: 2026-11-25
+
+- id: c08-009
+  chapter: 08
+  claim: Nayak said NavBoost does not by itself reduce results to a few hundred because many documents have no clicks, and that NavBoost applies only after retrieval.
+  label: Testimony
+  source: https://thecapitolforum.com/wp-content/uploads/2023/10/101823-USA-v-Google-PM.pdf
+  locator: pp. 6407, 6422
+  checked: 2026-11-25
+
+- id: c08-010
+  chapter: 08
+  claim: Eric Lehman agreed Google sometimes uses 'clicks' as shorthand for user interaction data, and said the team most engaged with it has gone by names such as NavBoost, Glue and Tetris.
+  label: Testimony
+  source: https://thecapitolforum.com/wp-content/uploads/2023/10/20230920-APM-BT7-PM-PUBLIC-Google.pdf
+  locator: pp. 1752-1753
+  checked: 2026-11-25
+  note: Sworn trial testimony, 20 Sep 2023 PM
+
+- id: c08-011
+  chapter: 08
+  claim: Lehman said some Google ranking systems are machine learning systems that train on user data, and described a short click as a click followed by a quick return to Google.
+  label: Testimony
+  source: https://thecapitolforum.com/wp-content/uploads/2023/10/20230920-APM-BT7-PM-PUBLIC-Google.pdf
+  locator: pp. 1758, 1769
+  checked: 2026-11-25
+
+- id: c08-012
+  chapter: 08
+  claim: Lehman agreed NavBoost trains on about 13 months of user data but said it is not a machine learning system; he called it a big table of click counts per query and document.
+  label: Testimony
+  source: https://www.justice.gov/media/1398886/dl
+  locator: PXRD016 slide B-2, quoting transcript 1805:6-13
+  checked: 2026-11-25
+  note: Demonstrative quoting sworn testimony
+
+- id: c08-013
+  chapter: 08
+  claim: PXR0357 describes NavBoost as a traditional signal measuring how often users, subset by location and device, click a document for a query, using the most recent 13 months of data.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398866/dl
+  locator: Section I, p. 1
+  checked: 2026-11-25
+  note: Interview notes, not sworn
+
+- id: c08-014
+  chapter: 08
+  claim: PXR0357 describes NavBoost as a query-to-document lookup table used in both directions, and says it is hard to quantify how many signals are affected by user-side data.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398866/dl
+  locator: Section III, p. 3
+  checked: 2026-11-25
+  note: Interview notes, not sworn
+
+- id: c08-015
+  chapter: 08
+  claim: PXR0357 says Google avoids simply predicting clicks because clicks are easily manipulated and a poor proxy for user experience.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398866/dl
+  locator: Section II, p. 2
+  checked: 2026-11-25
+  note: Interview notes, not sworn
+
+- id: c08-016
+  chapter: 08
+  claim: PXR0357 recounts that an early signal comparing how often a link was shown and clicked was found to be biased by link position.
+  label: Testimony
+  source: https://www.justice.gov/atr/media/1398866/dl
+  locator: Section IV, pp. 3-4
+  checked: 2026-11-25
+  note: Interview notes; OCR partly garbled
+
+- id: c08-017
+  chapter: 08
+  claim: The 2 Sep 2025 remedies opinion says NavBoost is one of Google's core ranking models and runs on 13 months of click-and-query data.
+  label: Testimony
+  source: https://www.govinfo.gov/content/pkg/USCOURTS-dcd-1_20-cv-03010/pdf/USCOURTS-dcd-1_20-cv-03010-3.pdf
+  locator: Printed p. 89
+  checked: 2026-11-25
+  note: Court opinion
+
+- id: c08-018
+  chapter: 08
+  claim: The remedies opinion calls Glue a 'super query log' and NavBoost an important component of the Glue data.
+  label: Testimony
+  source: https://www.govinfo.gov/content/pkg/USCOURTS-dcd-1_20-cv-03010/pdf/USCOURTS-dcd-1_20-cv-03010-3.pdf
+  locator: Printed p. 153
+  checked: 2026-11-25
+  note: Court opinion
+
+- id: c08-019
+  chapter: 08
+  claim: The remedies opinion describes user-side data as data from pairing a query with the response, with examples including the link clicked, hover time and whether the user clicks back; Glue covers clicks, hovers and other parts of the user's journey.
+  label: Testimony
+  source: https://www.govinfo.gov/content/pkg/USCOURTS-dcd-1_20-cv-03010/pdf/USCOURTS-dcd-1_20-cv-03010-3.pdf
+  locator: Printed pp. 152, 157
+  checked: 2026-11-25
+  note: Court opinion
+
+- id: c08-020
+  chapter: 08
+  claim: The court ordered sharing of the Glue data and RankEmbed training data with qualified competitors, subject to limits and privacy protections, and declined to order sharing of signals derived from user-side data.
+  label: Testimony
+  source: https://www.govinfo.gov/content/pkg/USCOURTS-dcd-1_20-cv-03010/pdf/USCOURTS-dcd-1_20-cv-03010-3.pdf
+  locator: Printed pp. 142-143, 157-164
+  checked: 2026-11-25
+  note: Court opinion
+
+- id: c08-021
+  chapter: 08
+  claim: QualityNavboostCrapsCrapsData has fields query, url, impressions, clicks, goodClicks, badClicks and lastLongestClicks (clicks that were last and longest in related user queries); the click fields have no description.
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.QualityNavboostCrapsCrapsData.html
+  locator: Fields, package v0.4.0
+  checked: 2026-11-25
+
+- id: c08-022
+  chapter: 08
+  claim: QualityNavboostCrapsCrapsData slices data by country, language and device, and has mobileSignals, a deprecated mobileData field, and patternLevel for URL patterns.
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.QualityNavboostCrapsCrapsData.html
+  locator: Fields, package v0.4.0
+  checked: 2026-11-25
+
+- id: c08-023
+  chapter: 08
+  claim: QualityNavboostCrapsCrapsData has voterTokenCount (lower bound on distinct contributing users, for privacy filtering) and unscaledIpPriorBadFraction (an IP-based prior used before a craps-penalty transform); squashed is marked not used yet.
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.QualityNavboostCrapsCrapsData.html
+  locator: Fields, package v0.4.0
+  checked: 2026-11-25
+
+- id: c08-024
+  chapter: 08
+  claim: QualityNavboostCrapsCrapsClickSignals holds click and impression signals and adds unicornClicks, the subset of clicks associated with an event from a Unicorn user; absoluteImpressions is stored compressed in per-document data and CompressedQualitySignals.
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.QualityNavboostCrapsCrapsClickSignals.html
+  locator: Module description and fields, v0.4.0
+  checked: 2026-11-25
+
+- id: c08-025
+  chapter: 08
+  claim: Location and device slicing in the NavBoost API fields matches Nayak's testimony on locale and device slices.
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/08-user-interaction-signals-and-navboost.md
+  locator: Section 8.5
+  checked: 2026-11-25
+
+- id: c08-026
+  chapter: 08
+  claim: lastLongestClicks plausibly means a search that ended on the result after a long visit; the exact definition is not documented.
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/08-user-interaction-signals-and-navboost.md
+  locator: Section 8.5
+  checked: 2026-11-25
+
+- id: c08-027
+  chapter: 08
+  claim: US9235627B1 (priority 2 Nov 2006, granted 12 Jan 2016; inventors H.-J. Kim, S. Tong, N. Shazeer, M. Diligenti) describes a relevance measure comparing longer views with shorter views of a result, passed to a ranking engine.
+  label: Patent
+  source: https://patents.google.com/patent/US9235627
+  locator: Bibliographic data and abstract
+  checked: 2026-11-25
+
+- id: c08-028
+  chapter: 08
+  claim: US9235627B1 measures view time from click until return to the results page, weights short clicks low and long clicks high in an example, and notes snippet and position bias in clicks.
+  label: Patent
+  source: https://patents.google.com/patent/US9235627
+  locator: Description
+  checked: 2026-11-25
+
+- id: c08-029
+  chapter: 08
+  claim: Nayak described interleaved live experiments where clicks decide which of two ranking versions is better.
+  label: Testimony
+  source: https://thecapitolforum.com/wp-content/uploads/2023/10/101823-USA-v-Google-PM.pdf
+  locator: pp. 6411-6412
+  checked: 2026-11-25
+
+- id: c08-030
+  chapter: 08
+  claim: Search Engine Land reported a Google 'Unified Click Prediction' slide stating that showing results users want to click is not the ultimate goal of ranking.
+  label: Secondhand
+  source: https://searchengineland.com/how-google-search-ranking-works-pandu-nayak-435395
+  locator: Article section on clicks
+  checked: 2026-11-25
+  note: Exhibit number not given; slide not checked
+
+- id: c08-031
+  chapter: 08
+  claim: The 2019 public denial and the court record are compatible if the denial targets per-page CTR or dwell time as live direct scores, while the record describes aggregated 13-month click data.
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/08-user-interaction-signals-and-navboost.md
+  locator: Section 8.7
+  checked: 2026-11-25

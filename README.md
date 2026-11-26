@@ -41,7 +41,7 @@ Read [Chapter 1](chapters/01-reading-seo-evidence.md) first. It explains what ea
 | 09 | [Titles and snippets in results](chapters/09-titles-and-snippets.md) | Draft v0.1 |
 | 10 | [Freshness](chapters/10-freshness.md) | Draft v0.1 |
 | 11 | [Sensitive (YMYL) topics](chapters/11-sensitive-ymyl-topics.md) | Draft v0.1 |
-| 12 | Technical SEO | Planned |
+| 12 | [Technical SEO](chapters/12-technical-seo.md) | Draft v0.1 |
 | 13 | Timing, updates and recovery | Planned |
 | 14 | Diagnosing traffic drops | Planned |
 | 15 | AI features in Search | Planned |

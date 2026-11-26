@@ -2636,3 +2636,179 @@
   source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/11-sensitive-ymyl-topics.md
   locator: "Sections 11.6, 11.7"
   checked: 2026-11-26
+
+- id: c12-001
+  chapter: 12
+  claim: "Google's three minimum technical requirements: Googlebot is not blocked, the page returns HTTP 200, and the page has indexable content."
+  label: Official
+  source: https://developers.google.com/search/docs/essentials/technical?authuser=1
+  locator: "Technical requirements list"
+  checked: 2026-11-26
+
+- id: c12-002
+  chapter: 12
+  claim: "Meeting the technical requirements does not guarantee indexing; client and server error pages are not indexed."
+  label: Official
+  source: https://developers.google.com/search/docs/essentials/technical?authuser=1
+  locator: "Introduction; status codes"
+  checked: 2026-11-26
+
+- id: c12-003
+  chapter: 12
+  claim: "A 2xx status does not guarantee indexing; a 2xx page that looks like an error is reported as a soft 404."
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/http-network-errors?authuser=2
+  locator: "2xx (success)"
+  checked: 2026-11-26
+
+- id: c12-004
+  chapter: 12
+  claim: "301 and 308 are strong, and 302 and 307 weak, signals that the redirect target should be processed; Googlebot follows up to 10 hops."
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/http-network-errors?authuser=2
+  locator: "3xx (redirects)"
+  checked: 2026-11-26
+
+- id: c12-005
+  chapter: 12
+  claim: "404 and 410 are treated the same: not indexed, already-indexed URLs removed over time, and crawl frequency gradually reduced."
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/http-network-errors?authuser=2
+  locator: "4xx (client errors)"
+  checked: 2026-11-26
+
+- id: c12-006
+  chapter: 12
+  claim: "429 is treated as a server error; 401 and 403 should not be used to limit crawl rate."
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/http-network-errors?authuser=2
+  locator: "4xx; 429"
+  checked: 2026-11-26
+
+- id: c12-007
+  chapter: 12
+  claim: "5xx errors slow crawling; indexed URLs are kept for a while but eventually dropped if errors persist; crawl rate recovers gradually after 2xx returns."
+  label: Official
+  source: https://developers.google.com/search/docs/crawling-indexing/http-network-errors?authuser=2
+  locator: "5xx (server errors)"
+  checked: 2026-11-26
+
+- id: c12-008
+  chapter: 12
+  claim: "Use 301/308 for permanent moves and avoid returning 200 for error pages."
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/12-technical-seo.md
+  locator: "Section 12.2"
+  checked: 2026-11-26
+
+- id: c12-009
+  chapter: 12
+  claim: "robots.txt tells crawlers which URLs they can access, is used mainly to avoid overloading a site, and is not a mechanism for keeping a page out of Google."
+  label: Official
+  source: https://developers.google.com/search/docs/advanced/robots
+  locator: "Introduction"
+  checked: 2026-11-26
+
+- id: c12-010
+  chapter: 12
+  claim: "A robots.txt-blocked page can still appear in results without a description; use noindex or password protection to keep it out."
+  label: Official
+  source: https://developers.google.com/search/docs/advanced/robots
+  locator: "Introduction"
+  checked: 2026-11-26
+
+- id: c12-011
+  chapter: 12
+  claim: "To keep a page out of the index, use noindex and allow crawling."
+  label: Official
+  source: https://developers.google.com/search/docs/essentials/technical?authuser=1
+  locator: "Googlebot isn't blocked"
+  checked: 2026-11-26
+
+- id: c12-012
+  chapter: 12
+  claim: "Google uses the mobile version of a site's content, crawled with the smartphone agent, for indexing and ranking (mobile-first indexing)."
+  label: Official
+  source: https://developers.google.com/search/mobile-sites/faq
+  locator: "Introduction"
+  checked: 2026-11-26
+
+- id: c12-013
+  chapter: 12
+  claim: "A mobile version is very strongly recommended but not required; responsive design is recommended."
+  label: Official
+  source: https://developers.google.com/search/mobile-sites/faq
+  locator: "Introduction"
+  checked: 2026-11-26
+
+- id: c12-014
+  chapter: 12
+  claim: "Mobile best practices: same content, same structured data, equivalent titles and descriptions, same robots meta tags, and no lazy-loading of primary content on interaction."
+  label: Official
+  source: https://developers.google.com/search/mobile-sites/faq
+  locator: "Best practices"
+  checked: 2026-11-26
+
+- id: c12-015
+  chapter: 12
+  claim: "Core Web Vitals are used by Google's ranking systems; good scores do not guarantee top rankings."
+  label: Official
+  source: https://developers.google.com/search/docs/guides/page-experience?authuser=8
+  locator: "Ranking section"
+  checked: 2026-11-26
+
+- id: c12-016
+  chapter: 12
+  claim: "Other page experience aspects do not directly help a site rank higher; there is no single page experience signal."
+  label: Official
+  source: https://developers.google.com/search/docs/guides/page-experience?authuser=8
+  locator: "Ranking section"
+  checked: 2026-11-26
+
+- id: c12-017
+  chapter: 12
+  claim: "Google always seeks to show the most relevant content even if page experience is sub-par; chasing a perfect score for SEO alone may not be the best use of time."
+  label: Official
+  source: https://developers.google.com/search/docs/guides/page-experience?authuser=8
+  locator: "Ranking section; FAQ"
+  checked: 2026-11-26
+
+- id: c12-018
+  chapter: 12
+  claim: "Google generally evaluates content page by page, with some site-wide assessments."
+  label: Official
+  source: https://developers.google.com/search/docs/guides/page-experience?authuser=8
+  locator: "FAQ"
+  checked: 2026-11-26
+
+- id: c12-019
+  chapter: 12
+  claim: "Self-check questions include whether pages are served securely, display well on mobile, and avoid intrusive interstitials."
+  label: Official
+  source: https://developers.google.com/search/docs/guides/page-experience?authuser=8
+  locator: "Self-assess your page experience"
+  checked: 2026-11-26
+
+- id: c12-020
+  chapter: 12
+  claim: "Good Core Web Vitals thresholds: LCP within 2.5 s, INP under 200 ms, CLS under 0.1."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/core-web-vitals
+  locator: "Metrics list"
+  checked: 2026-11-26
+
+- id: c12-021
+  chapter: 12
+  claim: "Good Core Web Vitals, with other page experience aspects, align with what core ranking systems seek to reward; Google highly recommends achieving them."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/core-web-vitals
+  locator: "Introduction"
+  checked: 2026-11-26
+
+- id: c12-022
+  chapter: 12
+  claim: "Technical SEO mostly removes obstacles to relevance and quality being seen; it rarely creates them."
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/12-technical-seo.md
+  locator: "Section 12.6"
+  checked: 2026-11-26

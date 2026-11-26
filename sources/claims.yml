@@ -2351,3 +2351,149 @@
   source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/09-titles-and-snippets.md
   locator: "Section 9.10"
   checked: 2026-11-26
+
+- id: c10-001
+  chapter: 10
+  claim: "Google's ranking systems guide says Google has various query deserves freshness systems designed to show fresher content where it would be expected."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/ranking-systems-guide
+  locator: "Freshness systems"
+  checked: 2026-11-26
+
+- id: c10-002
+  chapter: 10
+  claim: "The guide's examples: a just-released film (recent reviews wanted) and 'earthquake' (preparation material normally; news after a recent quake)."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/ranking-systems-guide
+  locator: "Freshness systems"
+  checked: 2026-11-26
+
+- id: c10-003
+  chapter: 10
+  claim: "On 3 November 2011 Amit Singhal announced a ranking change for fresher results that affected roughly 35 percent of searches."
+  label: Official
+  source: https://search.googleblog.com/2011/11/giving-you-fresher-more-recent-search.html
+  locator: "Post body"
+  checked: 2026-11-26
+
+- id: c10-004
+  chapter: 10
+  claim: "A 7 November 2011 update said the 35% meant at least one result changed, and that the change noticeably affected 6-10% of searches depending on language and domain."
+  label: Official
+  source: https://search.googleblog.com/2011/11/giving-you-fresher-more-recent-search.html
+  locator: "Update 11/7/11"
+  checked: 2026-11-26
+
+- id: c10-005
+  chapter: 10
+  claim: "The 2011 post named three kinds of searches: recent events or hot topics, regularly recurring events, and frequent updates."
+  label: Official
+  source: https://search.googleblog.com/2011/11/giving-you-fresher-more-recent-search.html
+  locator: "Post body"
+  checked: 2026-11-26
+
+- id: c10-006
+  chapter: 10
+  claim: "The 2011 post tied the change to Caffeine, which Google said lets it crawl and index fresh content quickly at scale."
+  label: Official
+  source: https://search.googleblog.com/2011/11/giving-you-fresher-more-recent-search.html
+  locator: "Post body"
+  checked: 2026-11-26
+
+- id: c10-007
+  chapter: 10
+  claim: "The 2011 query categories remain a useful way to judge whether a query is time-sensitive."
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/10-freshness.md
+  locator: "Section 10.2"
+  checked: 2026-11-26
+
+- id: c10-008
+  chapter: 10
+  claim: "Google does not rely on a single date factor; its systems look at several factors to estimate when a page was published or significantly updated."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/publication-dates
+  locator: "Introduction"
+  checked: 2026-11-26
+
+- id: c10-009
+  chapter: 10
+  claim: "Google may show a byline date when useful but does not guarantee to show one."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/publication-dates
+  locator: "Introduction / guidelines"
+  checked: 2026-11-26
+
+- id: c10-010
+  chapter: 10
+  claim: "Google recommends a prominent, labelled visible date and datePublished/dateModified structured data on a CreativeWork type."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/publication-dates
+  locator: "How to specify a date"
+  checked: 2026-11-26
+
+- id: c10-011
+  chapter: 10
+  claim: "Byline best practices: date required, time recommended, correct time zone including daylight saving, matching visible and structured dates, no future or event dates, fewer other dates if the wrong one is picked."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/publication-dates
+  locator: "Best practices"
+  checked: 2026-11-26
+
+- id: c10-012
+  chapter: 10
+  claim: "Changing page dates to look fresh when content has not really changed is a search engine-first warning sign."
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: "Avoid creating search engine-first content"
+  checked: 2026-11-26
+  note: "Cited from Chapter 4 (c04-014), checked 2026-11-21"
+
+- id: c10-013
+  chapter: 10
+  claim: "Search Engine Journal reported Mueller saying (hangout recorded 1 April 2021) that updating a date without significant changes would not change anything for search, to update dates only after significant changes, and that automatic CMS dates are fine."
+  label: Secondhand
+  source: https://www.searchenginejournal.com/googles-john-mueller-changing-dates-on-pages-wont-improve-rankings/
+  locator: "Article body"
+  checked: 2026-11-26
+  note: "Original video not checked"
+
+- id: c10-014
+  chapter: 10
+  claim: "QualityTimebasedSyntacticDate defines date, bylineDate (set when the byline date differs from date), useAsBylineDate, info bit flags for high-confidence bylines, trustSyntacticDateInRanking, syntacticDateNotForRestrict and time zone fields."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.QualityTimebasedSyntacticDate.html
+  locator: "Fields"
+  checked: 2026-11-26
+
+- id: c10-015
+  chapter: 10
+  claim: "The bylineDate description says the syntactic date is never later than the crawl time."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.QualityTimebasedSyntacticDate.html
+  locator: "Field: bylineDate"
+  checked: 2026-11-26
+
+- id: c10-016
+  chapter: 10
+  claim: "QualityTimebasedLastSignificantUpdate has date (from LSU Selector V2 when enabled, otherwise a legacy signal), source, adjustmentInfo (debugging only) and dateUnreliabilityInfo."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.QualityTimebasedLastSignificantUpdate.html
+  locator: "Fields"
+  checked: 2026-11-26
+
+- id: c10-017
+  chapter: 10
+  claim: "Date confidence fields suggest Google checks a page's claimed date against other evidence, so changing a visible date alone is unlikely to make a page look new."
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/10-freshness.md
+  locator: "Section 10.5"
+  checked: 2026-11-26
+
+- id: c10-018
+  chapter: 10
+  claim: "For time-sensitive content, discovery and recrawling are often the practical bottleneck."
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/10-freshness.md
+  locator: "Section 10.6"
+  checked: 2026-11-26

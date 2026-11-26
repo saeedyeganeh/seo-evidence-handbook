@@ -1975,3 +1975,379 @@
   source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/08-user-interaction-signals-and-navboost.md
   locator: Section 8.7
   checked: 2026-11-25
+
+- id: c09-001
+  chapter: 09
+  claim: "A title link is the title of a search result that links to the page, shown in Google Search and other properties such as Google News."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/title-link?hl=en&rd=1
+  locator: "Introduction"
+  checked: 2026-11-26
+
+- id: c09-002
+  chapter: 09
+  claim: "Google says snippets are created automatically from page content."
+  label: Official
+  source: https://developers.google.com/search/docs/advanced/appearance/snippet
+  locator: "Introduction"
+  checked: 2026-11-26
+
+- id: c09-003
+  chapter: 09
+  claim: "In July 2023 Google described the site name as appearing above the URL in search results."
+  label: Official
+  source: https://developers.google.com/search/blog/2023/07/sitenames
+  locator: "Post body"
+  checked: 2026-11-26
+
+- id: c09-004
+  chapter: 09
+  claim: "Featured snippets are chosen by Google's systems, which elevate pages that would make a good featured snippet for a query."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/featured-snippets?hl=en
+  locator: "How featured snippets work"
+  checked: 2026-11-26
+
+- id: c09-005
+  chapter: 09
+  claim: "Google says title link generation is completely automated and considers page content and references to the page on the web."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/title-link?hl=en&rd=1
+  locator: "How title links are created"
+  checked: 2026-11-26
+
+- id: c09-006
+  chapter: 09
+  claim: "Google lists nine title link sources: title element, main visual title, headings, og:title, prominent styled text, other page text, anchor text on the page, text of links pointing to the page, and WebSite structured data."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/title-link?hl=en&rd=1
+  locator: "How title links are created"
+  checked: 2026-11-26
+
+- id: c09-007
+  chapter: 09
+  claim: "Google cannot manually change title links for individual sites; after title changes, recrawling and reprocessing can take a few days to a few weeks."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/title-link?hl=en&rd=1
+  locator: "How title links are created / Submit feedback"
+  checked: 2026-11-26
+
+- id: c09-008
+  chapter: 09
+  claim: "Google lists common title problems it adjusts for: half-empty, obsolete, inaccurate, micro-boilerplate, no clear main title, language or script mismatch, and duplicated site name."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/title-link?hl=en&rd=1
+  locator: "Common issues table"
+  checked: 2026-11-26
+
+- id: c09-009
+  chapter: 09
+  claim: "If Google detects an issue with a title element, it may generate a better title link from anchors, on-page text or other sources."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/title-link?hl=en&rd=1
+  locator: "Common issues"
+  checked: 2026-11-26
+
+- id: c09-010
+  chapter: 09
+  claim: "On 24 August 2021 Danny Sullivan announced a new title generation system under which title links would generally no longer vary by query."
+  label: Official
+  source: https://developers.google.com/search/blog/2021/08/update-to-generating-page-titles?hl=en
+  locator: "Post body"
+  checked: 2026-11-26
+
+- id: c09-011
+  chapter: 09
+  claim: "The August 2021 system uses visual titles, headings, prominent text, other page text and link text, with the HTML title element used more than 80% of the time."
+  label: Official
+  source: https://developers.google.com/search/blog/2021/08/update-to-generating-page-titles?hl=en
+  locator: "Post body"
+  checked: 2026-11-26
+
+- id: c09-012
+  chapter: 09
+  claim: "Google has used text other than the title element in some cases since 2012, such as empty, identical or missing titles."
+  label: Official
+  source: https://developers.google.com/search/blog/2021/09/more-info-about-titles
+  locator: "Post body"
+  checked: 2026-11-26
+
+- id: c09-013
+  chapter: 09
+  claim: "After feedback-driven changes, Google used the title element about 87% of the time, up from about 80% (September 2021)."
+  label: Official
+  source: https://developers.google.com/search/blog/2021/09/more-info-about-titles
+  locator: "Post body"
+  checked: 2026-11-26
+
+- id: c09-014
+  chapter: 09
+  claim: "The September 2021 post pointed people to the Google Search Help Community to report title problems."
+  label: Official
+  source: https://developers.google.com/search/blog/2021/09/more-info-about-titles
+  locator: "Post body"
+  checked: 2026-11-26
+
+- id: c09-015
+  chapter: 09
+  claim: "The current title link documentation gives no percentage for how often the title element is used."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/title-link?hl=en&rd=1
+  locator: "Whole page"
+  checked: 2026-11-26
+
+- id: c09-016
+  chapter: 09
+  claim: "Google recommends a descriptive, concise title element on every page, avoiding vague labels, keyword stuffing and repeated boilerplate."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/title-link?hl=en&rd=1
+  locator: "Best practices"
+  checked: 2026-11-26
+
+- id: c09-017
+  chapter: 09
+  claim: "There is no length limit on the title element; title links are truncated to fit the device width."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/title-link?hl=en&rd=1
+  locator: "Best practices"
+  checked: 2026-11-26
+
+- id: c09-018
+  chapter: 09
+  claim: "Google suggests concise branding: more site information on the home page, and the site name at the start or end of other titles with a separator."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/title-link?hl=en&rd=1
+  locator: "Best practices"
+  checked: 2026-11-26
+
+- id: c09-019
+  chapter: 09
+  claim: "Google recommends a clear main title and a title in the same language and writing system as the page's content."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/title-link?hl=en&rd=1
+  locator: "Best practices"
+  checked: 2026-11-26
+
+- id: c09-020
+  chapter: 09
+  claim: "If Google cannot crawl a page, it may rely on off-page content such as anchor text for the title link; noindex is the way to keep a URL out of results."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/title-link?hl=en&rd=1
+  locator: "Best practices (robots.txt)"
+  checked: 2026-11-26
+
+- id: c09-021
+  chapter: 09
+  claim: "Google will likely not show price information in title links for flight pages."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/title-link?hl=en&rd=1
+  locator: "Best practices"
+  checked: 2026-11-26
+
+- id: c09-022
+  chapter: 09
+  claim: "Following the title recommendations gives Google fewer reasons to rewrite a title, but no source says it guarantees the title will be used."
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/09-titles-and-snippets.md
+  locator: "Section 9.4"
+  checked: 2026-11-26
+
+- id: c09-023
+  chapter: 09
+  claim: "Snippets are primarily created from page content and may differ for different searches."
+  label: Official
+  source: https://developers.google.com/search/docs/advanced/appearance/snippet
+  locator: "How snippets are created"
+  checked: 2026-11-26
+
+- id: c09-024
+  chapter: 09
+  claim: "Google may use the meta description when it would describe the page more accurately than on-page content."
+  label: Official
+  source: https://developers.google.com/search/docs/advanced/appearance/snippet
+  locator: "How snippets are created"
+  checked: 2026-11-26
+
+- id: c09-025
+  chapter: 09
+  claim: "There is no length limit on meta descriptions; snippets are truncated, typically to fit the device width."
+  label: Official
+  source: https://developers.google.com/search/docs/advanced/appearance/snippet
+  locator: "Meta description best practices"
+  checked: 2026-11-26
+
+- id: c09-026
+  chapter: 09
+  claim: "Google recommends unique meta descriptions per page, site-level descriptions for home and aggregation pages, useful facts such as author, date or price, and allows programmatic generation from page-specific data."
+  label: Official
+  source: https://developers.google.com/search/docs/advanced/appearance/snippet
+  locator: "Meta description best practices"
+  checked: 2026-11-26
+
+- id: c09-027
+  chapter: 09
+  claim: "Google says keyword lists in meta descriptions are less likely to be displayed as a snippet."
+  label: Official
+  source: https://developers.google.com/search/docs/advanced/appearance/snippet
+  locator: "Meta description best practices"
+  checked: 2026-11-26
+
+- id: c09-028
+  chapter: 09
+  claim: "nosnippet blocks a text snippet or video preview; max-snippet caps snippet characters, with 0 meaning no snippet and -1 letting Google choose; data-nosnippet marks parts of a page not to be used in snippets."
+  label: Official
+  source: https://developers.google.com/webmasters/control-crawl-index/docs/robots_meta_tag
+  locator: "Indexing and serving rules; data-nosnippet"
+  checked: 2026-11-26
+
+- id: c09-029
+  chapter: 09
+  claim: "nosnippet applies to web search, Google Images, Discover, AI Overviews and AI Mode, and prevents use as direct input for AI Overviews and AI Mode."
+  label: Official
+  source: https://developers.google.com/webmasters/control-crawl-index/docs/robots_meta_tag
+  locator: "nosnippet rule"
+  checked: 2026-11-26
+
+- id: c09-030
+  chapter: 09
+  claim: "max-snippet also limits direct input for AI Overviews and AI Mode, except where a publisher has separately granted permission."
+  label: Official
+  source: https://developers.google.com/webmasters/control-crawl-index/docs/robots_meta_tag
+  locator: "max-snippet rule"
+  checked: 2026-11-26
+
+- id: c09-031
+  chapter: 09
+  claim: "data-nosnippet is valid only on span, div and section elements, and Google advises against adding or removing it on existing elements with JavaScript."
+  label: Official
+  source: https://developers.google.com/webmasters/control-crawl-index/docs/robots_meta_tag
+  locator: "data-nosnippet section"
+  checked: 2026-11-26
+
+- id: c09-032
+  chapter: 09
+  claim: "When robots rules conflict, the more restrictive rule applies (nosnippet wins over max-snippet:50)."
+  label: Official
+  source: https://developers.google.com/webmasters/control-crawl-index/docs/robots_meta_tag
+  locator: "Conflicting robots rules"
+  checked: 2026-11-26
+
+- id: c09-033
+  chapter: 09
+  claim: "Snippet controls are presentation controls; the specification does not say they affect ranking."
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/09-titles-and-snippets.md
+  locator: "Section 9.6"
+  checked: 2026-11-26
+
+- id: c09-034
+  chapter: 09
+  claim: "Site owners cannot mark a page as a featured snippet."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/featured-snippets?hl=en
+  locator: "How can I mark my page as a featured snippet?"
+  checked: 2026-11-26
+
+- id: c09-035
+  chapter: 09
+  claim: "nosnippet blocks featured snippets; data-nosnippet text is excluded from featured and regular snippets; lowering max-snippet makes a featured snippet less likely but does not guarantee removal."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/featured-snippets?hl=en
+  locator: "Opting out of featured snippets"
+  checked: 2026-11-26
+
+- id: c09-036
+  chapter: 09
+  claim: "Clicking a featured snippet goes to the matching section of the page, or the top of the page if the position cannot be found; featured snippets can appear in related questions groups."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/featured-snippets?hl=en
+  locator: "How featured snippets work"
+  checked: 2026-11-26
+
+- id: c09-037
+  chapter: 09
+  claim: "WebSite structured data is the best way to indicate a preferred site name, with alternateName encouraged as a fallback."
+  label: Official
+  source: https://developers.google.com/search/blog/2023/07/sitenames
+  locator: "Post body"
+  checked: 2026-11-26
+
+- id: c09-038
+  chapter: 09
+  claim: "Google may not use a site name in some cases, such as two global sites claiming the same name, and then generally shows the domain or subdomain name."
+  label: Official
+  source: https://developers.google.com/search/blog/2023/07/sitenames
+  locator: "Post body"
+  checked: 2026-11-26
+
+- id: c09-039
+  chapter: 09
+  claim: "Subdomain site name support started on mobile in English, French, German and Japanese and extended to all devices in those languages, with more languages planned."
+  label: Official
+  source: https://developers.google.com/search/blog/2023/07/sitenames
+  locator: "Post body"
+  checked: 2026-11-26
+
+- id: c09-040
+  chapter: 09
+  claim: "Google may omit a duplicated domain-level site name from the title link when it is already shown in the result."
+  label: Official
+  source: https://developers.google.com/search/docs/appearance/title-link?hl=en&rd=1
+  locator: "Common issues table"
+  checked: 2026-11-26
+
+- id: c09-041
+  chapter: 09
+  claim: "MustangReposWwwSnippetsSnippetsRanklabFeatures is described as a protocol buffer exported to flat files in ranklab."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.MustangReposWwwSnippetsSnippetsRanklabFeatures.html
+  locator: "Module description"
+  checked: 2026-11-26
+
+- id: c09-042
+  chapter: 09
+  claim: "Its titles field holds per-candidate title features sorted best to worst, with the first element the selected title."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.MustangReposWwwSnippetsSnippetsRanklabFeatures.html
+  locator: "Field: titles"
+  checked: 2026-11-26
+
+- id: c09-043
+  chapter: 09
+  claim: "displaySnippet holds features of the final chosen snippet, first filled by Muppet and overwritten by Superroot if SnippetBrain is triggered."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.MustangReposWwwSnippetsSnippetsRanklabFeatures.html
+  locator: "Field: displaySnippet"
+  checked: 2026-11-26
+
+- id: c09-044
+  chapter: 09
+  claim: "The module records query term coverage in titles, snippets, and both, plus title and snippet data source, document and query locale, and browser width."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.MustangReposWwwSnippetsSnippetsRanklabFeatures.html
+  locator: "Fields: titleQueryTermCoverage, snippetQueryTermCoverage, titleSnippetQueryTermCoverage, titleDataSourceType, snippetDataSourceType, documentLanguage, queryLanguage, browserWidth"
+  checked: 2026-11-26
+
+- id: c09-045
+  chapter: 09
+  claim: "QualityPreviewSnippetBrainFeatures ('Snippet brain scores') has modelScore, the SnippetBrain model score, and isSnippetBrainBoldingTriggered."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.QualityPreviewSnippetBrainFeatures.html
+  locator: "Module description; fields"
+  checked: 2026-11-26
+
+- id: c09-046
+  chapter: 09
+  claim: "QualityPreviewChosenSnippetInfo records the chosen snippet's source (decided in PORC), rendered HTML, trailing ellipsis, and whether it is a vulgar candidate."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.QualityPreviewChosenSnippetInfo.html
+  locator: "Fields: source, snippetHtml, trailingEllipsis, isVulgar"
+  checked: 2026-11-26
+
+- id: c09-047
+  chapter: 09
+  claim: "The title element can plausibly affect relevance, but no cited source states its weight, and a rewritten title link does not show the title element was ignored for understanding the page."
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/09-titles-and-snippets.md
+  locator: "Section 9.10"
+  checked: 2026-11-26

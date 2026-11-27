@@ -39,7 +39,7 @@ Read [Chapter 1](chapters/01-reading-seo-evidence.md) first. It explains what ea
 | 07 | [Site-level quality signals](chapters/07-site-level-quality-signals.md) | Draft v0.1 |
 | 08 | [User interaction signals and NavBoost](chapters/08-user-interaction-signals-and-navboost.md) | Draft v0.1 |
 | 09 | [Titles and snippets in results](chapters/09-titles-and-snippets.md) | Draft v0.1 |
-| 10 | Freshness | Planned |
+| 10 | [Freshness](chapters/10-freshness.md) | Draft v0.1 |
 | 11 | Sensitive (YMYL) topics | Planned |
 | 12 | Technical SEO | Planned |
 | 13 | Timing, updates and recovery | Planned |

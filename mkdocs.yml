@@ -43,6 +43,7 @@ nav:
   - 08 User interaction signals and NavBoost: chapters/08-user-interaction-signals-and-navboost.md
   - 09 Titles and snippets in results: chapters/09-titles-and-snippets.md
   - 10 Freshness: chapters/10-freshness.md
+  - 11 Sensitive (YMYL) topics: chapters/11-sensitive-ymyl-topics.md
   - Claim ledger: sources/claims.md
   - Contributing: CONTRIBUTING.md
 

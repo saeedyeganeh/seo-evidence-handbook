@@ -2497,3 +2497,142 @@
   source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/10-freshness.md
   locator: "Section 10.6"
   checked: 2026-11-26
+
+- id: c11-001
+  chapter: 11
+  claim: "The Search Quality Rater Guidelines version checked is dated 11 September 2025; section 2.3 is titled Your Money or Your Life (YMYL) Topics."
+  label: Official
+  source: https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf
+  locator: "p. 1; §2.3, p. 11"
+  checked: 2026-11-26
+
+- id: c11-002
+  chapter: 11
+  claim: "Raters do not change rankings; their ratings are used to evaluate how well Google's systems work."
+  label: Official
+  source: https://developers.google.com/search/blog/2023/11/search-quality-rater-guidelines-update
+  locator: "Post body"
+  checked: 2026-11-26
+  note: "Cited from Chapter 1"
+
+- id: c11-003
+  chapter: 11
+  claim: "The guidelines describe YMYL topics as those that could significantly affect health, financial stability, safety, or the welfare or well-being of society."
+  label: Official
+  source: https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf
+  locator: "§2.3, p. 11"
+  checked: 2026-11-26
+
+- id: c11-004
+  chapter: 11
+  claim: "The guidelines name four kinds of YMYL harm: Health or Safety; Financial Security; Government, Civics & Society (including election and voting information); and Other."
+  label: Official
+  source: https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf
+  locator: "§2.3, pp. 11-12"
+  checked: 2026-11-26
+
+- id: c11-005
+  chapter: 11
+  claim: "SERoundtable reported the 11 Sep 2025 update changed 'YMYL Society' to 'YMYL Government, Civics & Society', adding election and voting information, and added AI Overview examples."
+  label: Secondhand
+  source: https://www.seroundtable.com/google-ads-related-searches-based-on-your-browsing-40092.html
+  locator: "Article body"
+  checked: 2026-11-26
+  note: "URL slug does not match title; canonical article checked"
+
+- id: c11-006
+  chapter: 11
+  claim: "The guidelines treat YMYL as a spectrum (clear YMYL, not YMYL, or in between) and ask whether a careful person would seek expert sources or most people would ask friends casually."
+  label: Official
+  source: https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf
+  locator: "§2.3, pp. 11-12"
+  checked: 2026-11-26
+
+- id: c11-007
+  chapter: 11
+  claim: "YMYL depends on potential harm rather than industry, so it is not a fixed list of site types."
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/11-sensitive-ymyl-topics.md
+  locator: "Section 11.3"
+  checked: 2026-11-26
+
+- id: c11-008
+  chapter: 11
+  claim: "The guidelines set very high Page Quality standards for clear YMYL pages and say YMYL pages have higher standards than non-YMYL pages."
+  label: Official
+  source: https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf
+  locator: "pp. 11, 19"
+  checked: 2026-11-26
+
+- id: c11-009
+  chapter: 11
+  claim: "Trust is described as the most important member of the E-E-A-T family; informational pages on clear YMYL topics must be accurate to prevent harm."
+  label: Official
+  source: https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf
+  locator: "p. 27"
+  checked: 2026-11-26
+
+- id: c11-010
+  chapter: 11
+  claim: "Pages needing high trust, such as medical sites or news on major civic issues, deserve special scrutiny."
+  label: Official
+  source: https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf
+  locator: "p. 29"
+  checked: 2026-11-26
+
+- id: c11-011
+  chapter: 11
+  claim: "The Nov 2023 overview says raters apply very high Page Quality standards to YMYL pages and uses a flu-symptoms page as a YMYL example."
+  label: Official
+  source: https://services.google.com/fh/files/misc/hsw-sqrg.pdf
+  locator: "pp. 25-26"
+  checked: 2026-11-26
+
+- id: c11-012
+  chapter: 11
+  claim: "Section 3.4.1, 'YMYL Topics: Experience or Expertise?', uses examples to show when experience or expert information is needed; for 'how to vote', the expert column lists eligibility and voter registration."
+  label: Official
+  source: https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf
+  locator: "§3.4.1, p. 28"
+  checked: 2026-11-26
+
+- id: c11-013
+  chapter: 11
+  claim: "On YMYL topics personal experience can add value but cannot replace accurate expert information where facts or rules decide the outcome."
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/11-sensitive-ymyl-topics.md
+  locator: "Section 11.4"
+  checked: 2026-11-26
+
+- id: c11-014
+  chapter: 11
+  claim: "Google says its systems give even more weight to content aligning with strong E-E-A-T for topics that could significantly affect health, financial stability, safety or societal welfare (YMYL)."
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: "E-E-A-T section"
+  checked: 2026-11-26
+
+- id: c11-015
+  chapter: 11
+  claim: "Google says trust is the most important E-E-A-T aspect, E-E-A-T is not a specific ranking factor, and rater data is not used directly in ranking algorithms."
+  label: Official
+  source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  locator: "E-E-A-T section"
+  checked: 2026-11-26
+
+- id: c11-016
+  chapter: 11
+  claim: "CompressedQualitySignals (v0.4.0) contains no field whose name includes 'ymyl'."
+  label: API Docs
+  source: https://google-api-content-warehouse.hexdocs.pm/0.4.0/GoogleApi.ContentWarehouse.V1.Model.CompressedQualitySignals.html
+  locator: "Full field list"
+  checked: 2026-11-26
+  note: "Other modules not checked"
+
+- id: c11-017
+  chapter: 11
+  claim: "No source in this chapter verifies a general YMYL score or a YMYL penalty."
+  label: Inference
+  source: https://github.com/saeedyeganeh/seo-evidence-handbook/blob/main/chapters/11-sensitive-ymyl-topics.md
+  locator: "Sections 11.6, 11.7"
+  checked: 2026-11-26
